@@ -1,0 +1,82 @@
+CRITICAL - 2023-02-21 08:55:03 --> Call to undefined method App\Libraries\TEFakeContent\Interpreter\Interpreter::start()
+in APPPATH\Libraries\TEFakeContent\TEFakeContent.php on line 16.
+ 1 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 08:56:47 --> Too few arguments to function App\Libraries\TEFakeContent\Interpreter\Interpreter::making(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 29 and exactly 2 expected
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 68.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(29): App\Libraries\TEFakeContent\Interpreter\Interpreter->making()
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...])
+ 3 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 09:20:23 --> Too few arguments to function App\Libraries\TEFakeContent\Interpreter\Interpreter::make_fields(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\TEFakeContent.php on line 16 and exactly 2 expected
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 27.
+ 1 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...])
+ 2 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 09:23:27 --> Undefined variable: record
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 33.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: record', 'APPPATH\\Libraries\\TEFakeContent\\Interpreter\\Interpreter.php', 33, [...])
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 3 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 09:33:06 --> Undefined variable: field
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 38.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: field', 'APPPATH\\Libraries\\TEFakeContent\\Interpreter\\Interpreter.php', 38, [...])
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 3 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 09:35:08 --> Undefined offset: 0
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 38.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Libraries\\TEFakeContent\\Interpreter\\Interpreter.php', 38, [...])
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 3 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 09:36:39 --> Undefined index: 
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 38.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Libraries\\TEFakeContent\\Interpreter\\Interpreter.php', 38, [...])
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 3 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 10:26:38 --> Return value of App\Libraries\TEFakeContent\Interpreter\Interpreter::make_fields() must be of the type array, string returned
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 46.
+ 1 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(16): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 2 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 10:27:03 --> Return value of App\Libraries\TEFakeContent\TEFakeContent::fields() must be of the type array, string returned
+in APPPATH\Libraries\TEFakeContent\TEFakeContent.php on line 16.
+ 1 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-21 10:27:05 --> Return value of App\Libraries\TEFakeContent\TEFakeContent::fields() must be of the type array, string returned
+in APPPATH\Libraries\TEFakeContent\TEFakeContent.php on line 16.
+ 1 APPPATH\Controllers\Home.php(26): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

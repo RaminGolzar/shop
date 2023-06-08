@@ -1,0 +1,207 @@
+ERROR - 2023-04-24 09:31:51 --> Column 'name' in where clause is ambiguous
+CRITICAL - 2023-04-24 09:31:51 --> Column 'name' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `name` LIKE \'%product%\' ESCAPE \'!\'
+OR  `description` LIKE \'%product%\' ESCAPE \'!\'
+OR  `price` LIKE \'%product%\' ESCAPE \'!\'
+OR  `discount` LIKE \'%product%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `name` LIKE \'%product%\' ESCAPE \'!\'
+OR  `description` LIKE \'%product%\' ESCAPE \'!\'
+OR  `price` LIKE \'%product%\' ESCAPE \'!\'
+OR  `discount` LIKE \'%product%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `name` LIKE \'%product%\' ESCAPE \'!\'
+OR  `description` LIKE \'%product%\' ESCAPE \'!\'
+OR  `price` LIKE \'%product%\' ESCAPE \'!\'
+OR  `discount` LIKE \'%product%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `description` LIKE :description: ESCAPE \'!\'
+OR  `price` LIKE :price: ESCAPE \'!\'
+OR  `discount` LIKE :discount: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(36): App\Models\MProducts->search('product')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 09:35:17 --> Unknown column 'pi.name' in 'field list'
+CRITICAL - 2023-04-24 09:35:17 --> Unknown column 'pi.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%pro%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%pro%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%pro%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%pro%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`name` as `product_name`, `pi`.`name` as `product_image`
+FROM `products` as `p`
+WHERE `p`.`name` LIKE :p.name: ESCAPE \'!\'
+OR  `p`.`description` LIKE :p.description: ESCAPE \'!\'
+OR  `p`.`price` LIKE :p.price: ESCAPE \'!\'
+OR  `p`.`discount` LIKE :p.discount: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(43): App\Models\MProducts->search('pro')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:37:47 --> Call to undefined method App\Libraries\Elements\Elements::continer()
+in APPPATH\Controllers\Search.php on line 43.
+ 1 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:38:49 --> Call to undefined method App\Libraries\Elements\Elements::half()
+in APPPATH\Controllers\Search.php on line 43.
+ 1 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:44:08 --> Undefined index: image_name
+in APPPATH\Controllers\Search.php on line 43.
+ 1 APPPATH\Controllers\Search.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: image_name', 'APPPATH\\Controllers\\Search.php', 43, [...])
+ 2 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:45:00 --> Argument 1 passed to App\Libraries\Elements\Elements::img() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Search.php on line 43
+in APPPATH\Libraries\Elements\Elements.php on line 1428.
+ 1 APPPATH\Controllers\Search.php(43): App\Libraries\Elements\Elements->img(null, [...])
+ 2 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:45:59 --> Argument 2 passed to App\Libraries\Elements\Elements::img() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Search.php on line 43
+in APPPATH\Libraries\Elements\Elements.php on line 1428.
+ 1 APPPATH\Controllers\Search.php(43): App\Libraries\Elements\Elements->img('DefaultImage.jpg', [...])
+ 2 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 09:56:25 --> Argument 2 passed to App\Libraries\Elements\Elements::img() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Search.php on line 43
+in APPPATH\Libraries\Elements\Elements.php on line 1428.
+ 1 APPPATH\Controllers\Search.php(43): App\Libraries\Elements\Elements->img('DefaultImage.jpg', [...])
+ 2 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 11:10:12 --> Argument 2 passed to App\Libraries\Elements\Elements::img() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Search.php on line 43
+in APPPATH\Libraries\Elements\Elements.php on line 1428.
+ 1 APPPATH\Controllers\Search.php(43): App\Libraries\Elements\Elements->img('DefaultImage.jpg', [...])
+ 2 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 11:10:49 --> Call to undefined method App\Libraries\Elements\Handlers\Tag::paragraph()
+in APPPATH\Controllers\Search.php on line 44.
+ 1 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 11:23:27 --> Call to undefined method App\Libraries\Elements\Elements::anchor()
+in APPPATH\Controllers\Search.php on line 46.
+ 1 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 11:23:45 --> Call to undefined method App\Libraries\Elements\Elements::anchor()
+in APPPATH\Controllers\Search.php on line 46.
+ 1 APPPATH\Controllers\Search.php(12): App\Controllers\Search->prepare_html([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 11:28:57 --> Unknown column 'pi.name' in 'field list'
+CRITICAL - 2023-04-24 11:28:57 --> Unknown column 'pi.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%product 5%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%product 5%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+WHERE `p`.`name` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`description` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`price` LIKE \'%product 5%\' ESCAPE \'!\'
+OR  `p`.`discount` LIKE \'%product 5%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+WHERE `p`.`name` LIKE :p.name: ESCAPE \'!\'
+OR  `p`.`description` LIKE :p.description: ESCAPE \'!\'
+OR  `p`.`price` LIKE :p.price: ESCAPE \'!\'
+OR  `p`.`discount` LIKE :p.discount: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(36): App\Models\MProducts->search('product 5')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-24 11:57:44 --> Unknown column 'product_name' in 'where clause'
+CRITICAL - 2023-04-24 11:57:44 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_name` = \'product 318\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_name` = \'product 318\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_name` = \'product 318\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, ifnull(pi.name, "DefaultImage.jpg") as product_image
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_name` = :product_name:', [...], false)
+ 5 APPPATH\Models\MProducts.php(103): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(36): App\Models\MProducts->search('product 318')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

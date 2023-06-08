@@ -1,0 +1,69 @@
+CRITICAL - 2022-12-12 07:11:13 --> Too few arguments to function App\Libraries\TEFakeContent\GenContent\DateTime::__call(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\GenContent.php on line 141 and exactly 2 expected
+in APPPATH\Libraries\TEFakeContent\GenContent\DateTime.php on line 23.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(141): App\Libraries\TEFakeContent\GenContent\DateTime->__call('aa')
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->date()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 07:11:59 --> Method App\Libraries\TEFakeContent\GenContent\DateTime::__call() must take exactly 2 arguments
+in APPPATH\Libraries\TEFakeContent\GenContent\DateTime.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 07:12:50 --> Method App\Libraries\TEFakeContent\GenContent\DateTime::__call() must take exactly 2 arguments
+in APPPATH\Libraries\TEFakeContent\GenContent\DateTime.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 07:13:35 --> Return value of App\Libraries\TEFakeContent\GenContent\GenContent::date() must be of the type string, null returned
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 141.
+ 1 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->date()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 07:52:16 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 158.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\TEFakeContent\\GenContent\\GenContent.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\TEFakeContent\\GenContent\\GenContent')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\TEFakeContent\\GenContent\\GenContent')
+ 4 APPPATH\Controllers\Home.php(16): spl_autoload_call('App\\Libraries\\TEFakeContent\\GenContent\\GenContent')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 07:52:54 --> Call to undefined function App\Libraries\TEFakeContent\GenContent\data()
+in APPPATH\Libraries\TEFakeContent\GenContent\DateTime.php on line 46.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\DateTime.php(15): App\Libraries\TEFakeContent\GenContent\DateTime->datetime()
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(168): App\Libraries\TEFakeContent\GenContent\DateTime->get('datetime')
+ 3 APPPATH\Controllers\Home.php(24): App\Libraries\TEFakeContent\GenContent\GenContent->date_time()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 07:55:10 --> Return value of App\Libraries\TEFakeContent\GenContent\GenContent::date() must be of the type string, null returned
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 146.
+ 1 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->date()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 09:31:53 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum::lorem() must be of the type string, none returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php on line 22.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(190): App\Libraries\TEFakeContent\GenContent\LoremIpsum->lorem()
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 09:32:41 --> Too few arguments to function App\Libraries\TEFakeContent\GenContent\LoremIpsum::char(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\GenContent.php on line 190 and at least 1 expected
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php on line 24.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(190): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char()
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:22:17 --> Call to undefined method App\Libraries\TEFakeContent\GenContent\GenContent::lorem()
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

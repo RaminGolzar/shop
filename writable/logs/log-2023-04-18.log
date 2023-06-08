@@ -1,0 +1,212 @@
+CRITICAL - 2023-04-18 07:18:29 --> A function with return type must return a value
+in APPPATH\Controllers\Process\Products.php on line 319.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-18 07:20:14 --> Argument 1 passed to App\Controllers\Process\Products::delete_photo_file() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\Products.php on line 232
+in APPPATH\Controllers\Process\Products.php on line 368.
+ 1 APPPATH\Controllers\Process\Products.php(232): App\Controllers\Process\Products->delete_photo_file([...])
+ 2 APPPATH\Controllers\Process\Products.php(202): App\Controllers\Process\Products->delete_product('150')
+ 3 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 07:26:43 --> Argument 2 passed to App\Controllers\Process\Products::update_photo_info() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\Products.php on line 329
+in APPPATH\Controllers\Process\Products.php on line 339.
+ 1 APPPATH\Controllers\Process\Products.php(329): App\Controllers\Process\Products->update_photo_info('152', null)
+ 2 APPPATH\Controllers\Process\Products.php(299): App\Controllers\Process\Products->update_photo('152')
+ 3 APPPATH\Controllers\Process\Products.php(267): App\Controllers\Process\Products->updating([...])
+ 4 APPPATH\Controllers\Process\Products.php(32): App\Controllers\Process\Products->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 07:39:50 --> unlink(E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\writable\/Uploads/ProductImages/643e8c4cadc78.jpg): No such file or directory
+in APPPATH\Controllers\Process\Products.php on line 370.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(E:\\SoftWare\\xampp 7\\htdocs\\my_projects\\Resume\\Shop\\writable\\/Uploads/ProductImages/643e8c4cadc78.jpg): No such file or directory', 'APPPATH\\Controllers\\Process\\Products.php', 370, [...])
+ 2 APPPATH\Controllers\Process\Products.php(370): unlink('ROOTPATH\\writable\\/Uploads/ProductImages/643e8c4cadc78.jpg')
+ 3 APPPATH\Controllers\Process\Products.php(359): App\Controllers\Process\Products->delete_photo_file('643e8c4cadc78.jpg')
+ 4 APPPATH\Controllers\Process\Products.php(326): App\Controllers\Process\Products->delete_old_photo('152')
+ 5 APPPATH\Controllers\Process\Products.php(299): App\Controllers\Process\Products->update_photo('152')
+ 6 APPPATH\Controllers\Process\Products.php(267): App\Controllers\Process\Products->updating([...])
+ 7 APPPATH\Controllers\Process\Products.php(32): App\Controllers\Process\Products->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-18 08:36:36 --> Column 'id' in field list is ambiguous
+CRITICAL - 2023-04-18 08:36:36 --> Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = :product_group_id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductsList.php(59): App\Models\MProducts->get_products_group('1')
+ 7 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->get_products('1')
+ 8 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-18 08:38:14 --> Unknown column 'pi.name' in 'field list'
+CRITICAL - 2023-04-18 08:38:14 --> Unknown column 'pi.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id`, `p`.`name` as `name`, `price`, `discount`, price - ifnull(discount, 0) as total_price, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `product_images` ON `p`.`id` = `pi`.`product_id`
+WHERE `product_group_id` = :product_group_id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductsList.php(59): App\Models\MProducts->get_products_group('1')
+ 7 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->get_products('1')
+ 8 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 08:38:46 --> Call to undefined method App\Models\MProducts::placing_product_image
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\MProducts.php(89): CodeIgniter\Model->__call('placing_product_image', [...])
+ 2 APPPATH\Controllers\Panel\ProductsList.php(59): App\Models\MProducts->get_products_group('1')
+ 3 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->get_products('1')
+ 4 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 09:38:17 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 APPPATH\Views\Panel\VProductInfo.php(18): number_format('ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+10 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('155')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 09:41:43 --> Undefined index: price
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 APPPATH\Views\Panel\VProductInfo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: price', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 8 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('155')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 09:43:01 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 APPPATH\Views\Panel\VProductInfo.php(18): number_format('ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+10 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('155')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-18 09:58:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`na...' at line 1
+CRITICAL - 2023-04-18 09:58:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`na...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, `description`, `price if null` 9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`name` as `brand_name`, `pg`.`name` as `product_group_name`, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `brands` as `b` ON `p`.`brand_id` = `b`.`id`
+JOIN `product_groups` as `pg` ON `p`.`product_group_id` = `pg`.`id`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `p`.`id` = \'155\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, `description`, `price if null` 9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`name` as `brand_name`, `pg`.`name` as `product_group_name`, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `brands` as `b` ON `p`.`brand_id` = `b`.`id`
+JOIN `product_groups` as `pg` ON `p`.`product_group_id` = `pg`.`id`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `p`.`id` = \'155\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, `description`, `price if null` 9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`name` as `brand_name`, `pg`.`name` as `product_group_name`, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `brands` as `b` ON `p`.`brand_id` = `b`.`id`
+JOIN `product_groups` as `pg` ON `p`.`product_group_id` = `pg`.`id`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `p`.`id` = \'155\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id` as `product_id`, `p`.`name` as `product_name`, `description`, `price if null` 9999, `p`.`discount`, p.price - ifnull(p.discount, 0) as total_price, `b`.`name` as `brand_name`, `pg`.`name` as `product_group_name`, `pi`.`name` as `image`
+FROM `products` as `p`
+JOIN `brands` as `b` ON `p`.`brand_id` = `b`.`id`
+JOIN `product_groups` as `pg` ON `p`.`product_group_id` = `pg`.`id`
+JOIN `product_images` as `pi` ON `pi`.`product_id` = `p`.`id`
+WHERE `p`.`id` = :p.id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('155')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('155')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('155')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 10:24:17 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 APPPATH\Views\Panel\VProductInfo.php(18): number_format('ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+10 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('155')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 10:25:00 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 APPPATH\Views\Panel\VProductInfo.php(18): number_format('ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+10 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('157')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,126 @@
+CRITICAL - 2023-03-04 06:14:14 --> This is a my alert. my name is ramin.
+in APPPATH\Controllers\Process\BaseProcess.php on line 20.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(14): App\Controllers\Process\BaseProcess->save()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 06:15:25 --> This is a my alert. my name is ramin.
+in APPPATH\Controllers\Process\BaseProcess.php on line 20.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(14): App\Controllers\Process\BaseProcess->save()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 06:16:49 --> This is a my alert. my name is ramin.
+in APPPATH\Controllers\Process\BaseProcess.php on line 20.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(14): App\Controllers\Process\BaseProcess->save()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 06:18:11 --> This is a my alert. my name is ramin.
+in APPPATH\Controllers\Process\BaseProcess.php on line 20.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(14): App\Controllers\Process\BaseProcess->save()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 06:19:41 --> Return value of App\Controllers\Process\BaseProcess::index() must be an object, none returned
+in APPPATH\Controllers\Process\BaseProcess.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 06:59:37 --> Call to undefined method App\Controllers\Process\ShippingMethod::messages_to_json()
+in APPPATH\Controllers\Process\BaseProcess.php on line 59.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(39): App\Controllers\Process\BaseProcess->save()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:00:35 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:17:01 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:17:03 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:17:15 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:22:13 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 07:22:14 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, string used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('"Saving data operation is successfully"')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '"Saving data operation is successfully"', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(38): App\Controllers\BaseController->msg('ROOTPATH\\public', '"Saving data operation is successfully"')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('"Saving data operation is successfully"')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-04 08:29:27 --> Column 'deleted_at' cannot be null
+CRITICAL - 2023-03-04 08:29:27 --> Column 'deleted_at' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `shipping_method` (`name`, `description`, `deleted_at`, `created_at`, `updated_at`) VALUES (\'FIX\', \'FIX\', NULL, \'2023-03-04 08:29:27\', \'2023-03-04 08:29:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `shipping_method` (`name`, `description`, `deleted_at`, `created_at`, `updated_at`) VALUES (\'FIX\', \'FIX\', NULL, \'2023-03-04 08:29:27\', \'2023-03-04 08:29:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `shipping_method` (`name`, `description`, `deleted_at`, `created_at`, `updated_at`) VALUES (\'FIX\', \'FIX\', NULL, \'2023-03-04 08:29:27\', \'2023-03-04 08:29:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `shipping_method` (`name`, `description`, `deleted_at`, `created_at`, `updated_at`) VALUES (:name:, :description:, :deleted_at:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Process\BaseProcess.php(60): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Process\BaseProcess.php(39): App\Controllers\Process\BaseProcess->save()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('save')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-04 10:42:21 --> Undefined variable: editForm
+in APPPATH\Views\Panel\VShippingMethod.php on line 9.
+ 1 APPPATH\Views\Panel\VShippingMethod.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: editForm', 'APPPATH\\Views\\Panel\\VShippingMethod.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VShippingMethod.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VShippingMethod', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('Panel/VShippingMethod')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('Panel/VShippingMethod')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('Panel/VShippingMethod', 'Shipping Method')
+ 8 APPPATH\Controllers\BaseController.php(114): App\Libraries\LoadView\LoadView->show('Panel/VShippingMethod', 'Shipping Method')
+ 9 APPPATH\Controllers\Panel\BaseManage.php(46): App\Controllers\BaseController->view('Panel/VShippingMethod', 'Shipping Method')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ShippingMethod))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

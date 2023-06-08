@@ -1,0 +1,12 @@
+CRITICAL - 2023-03-20 10:32:28 --> Undefined variable: _SESSION
+in APPPATH\Controllers\BaseController.php on line 199.
+ 1 APPPATH\Controllers\BaseController.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Controllers\\BaseController.php', 199, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(16): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

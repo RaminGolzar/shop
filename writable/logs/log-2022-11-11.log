@@ -1,0 +1,37 @@
+CRITICAL - 2022-11-11 06:24:49 --> Too few arguments to function App\Libraries\LoadView\LoadView::head_view(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\LoadView\Attachments\View.php on line 37 and exactly 1 expected
+in APPPATH\Libraries\LoadView\Attachments\View.php on line 54.
+ 1 APPPATH\Libraries\LoadView\Attachments\View.php(37): App\Libraries\LoadView\LoadView->head_view()
+ 2 APPPATH\Libraries\LoadView\Attachments\View.php(10): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 3 APPPATH\Controllers\BaseController.php(106): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+ 4 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-11 07:02:33 --> syntax error, unexpected ''aaaaa' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\BaseController.php on line 89.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Home.php(5): spl_autoload_call('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 9 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+10 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+11 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-11 07:02:54 --> Call to undefined function App\Libraries\LoadView\Attachments\script_tag()
+in APPPATH\Libraries\LoadView\Attachments\View.php on line 115.
+ 1 APPPATH\Libraries\LoadView\Attachments\View.php(102): App\Libraries\LoadView\LoadView->script_tag()
+ 2 APPPATH\Libraries\LoadView\Attachments\View.php(77): App\Libraries\LoadView\LoadView->footer_view()
+ 3 APPPATH\Libraries\LoadView\Attachments\View.php(39): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 4 APPPATH\Libraries\LoadView\Attachments\View.php(10): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 5 APPPATH\Controllers\BaseController.php(110): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+ 6 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

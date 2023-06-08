@@ -1,0 +1,197 @@
+CRITICAL - 2023-04-28 06:23:54 --> Undefined offset: 103
+in APPPATH\Models\MProducts.php on line 148.
+ 1 APPPATH\Models\MProducts.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 103', 'APPPATH\\Models\\MProducts.php', 148, [...])
+ 2 APPPATH\Models\MProducts.php(123): App\Models\MProducts->get_random_product(4)
+ 3 APPPATH\Controllers\Home.php(30): App\Models\MProducts->get_suggest_product(4)
+ 4 APPPATH\Controllers\Home.php(15): App\Controllers\Home->get_data()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:27:25 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Home.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:27:44 --> Undefined offset: 103
+in APPPATH\Models\MProducts.php on line 148.
+ 1 APPPATH\Models\MProducts.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 103', 'APPPATH\\Models\\MProducts.php', 148, [...])
+ 2 APPPATH\Models\MProducts.php(123): App\Models\MProducts->get_random_product(4)
+ 3 APPPATH\Controllers\Home.php(30): App\Models\MProducts->get_suggest_product(4)
+ 4 APPPATH\Controllers\Home.php(15): App\Controllers\Home->get_data()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:39:01 --> Undefined offset: 103
+in APPPATH\Models\MProducts.php on line 148.
+ 1 APPPATH\Models\MProducts.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 103', 'APPPATH\\Models\\MProducts.php', 148, [...])
+ 2 APPPATH\Models\MProducts.php(123): App\Models\MProducts->get_random_product(4)
+ 3 APPPATH\Controllers\Home.php(30): App\Models\MProducts->get_suggest_product(4)
+ 4 APPPATH\Controllers\Home.php(15): App\Controllers\Home->get_data()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:57:56 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:01 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:02 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:04 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:05 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:06 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:12 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:13 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:13 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:13 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:14 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:14 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:14 --> Undefined offset: 103
+in APPPATH\Models\MProducts.php on line 148.
+ 1 APPPATH\Models\MProducts.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 103', 'APPPATH\\Models\\MProducts.php', 148, [...])
+ 2 APPPATH\Models\MProducts.php(123): App\Models\MProducts->get_random_product(4)
+ 3 APPPATH\Controllers\Home.php(30): App\Models\MProducts->get_suggest_product(4)
+ 4 APPPATH\Controllers\Home.php(15): App\Controllers\Home->get_data()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 06:58:14 --> Undefined variable: item
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Controllers\\Home.php', 44, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Controllers\Home->prepare_html()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 07:56:57 --> Undefined index: currency
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: currency', 'APPPATH\\Controllers\\Home.php', 82, [...])
+ 2 APPPATH\Controllers\Home.php(56): App\Controllers\Home->prep_one_product([...])
+ 3 APPPATH\Controllers\Home.php(24): App\Controllers\Home->prepare_html()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-28 07:58:28 --> Column 'created_at' in order clause is ambiguous
+CRITICAL - 2023-04-28 07:58:28 --> Column 'created_at' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `p`.`name` as `product_name`, `p`.`price`, `p`.`discount`, `pi`.`name` as `image_name`, `c`.`sign` as `currency`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+JOIN `currency` as `c` ON `p`.`currency_id` = `c`.`id`
+ORDER BY `created_at` DESC
+ LIMIT 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`name` as `product_name`, `p`.`price`, `p`.`discount`, `pi`.`name` as `image_name`, `c`.`sign` as `currency`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+JOIN `currency` as `c` ON `p`.`currency_id` = `c`.`id`
+ORDER BY `created_at` DESC
+ LIMIT 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`name` as `product_name`, `p`.`price`, `p`.`discount`, `pi`.`name` as `image_name`, `c`.`sign` as `currency`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+JOIN `currency` as `c` ON `p`.`currency_id` = `c`.`id`
+ORDER BY `created_at` DESC
+ LIMIT 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`name` as `product_name`, `p`.`price`, `p`.`discount`, `pi`.`name` as `image_name`, `c`.`sign` as `currency`
+FROM `products` as `p`
+JOIN `product_images` as `pi` ON `p`.`id` = `pi`.`product_id`
+JOIN `currency` as `c` ON `p`.`currency_id` = `c`.`id`
+ORDER BY `created_at` DESC
+ LIMIT 4', [], false)
+ 5 APPPATH\Models\MProducts.php(169): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\MProducts->get_latest_products(4)
+ 7 APPPATH\Controllers\Home.php(22): App\Controllers\Home->init_product_categories()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

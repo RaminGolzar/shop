@@ -1,0 +1,23 @@
+CRITICAL - 2023-03-13 09:05:31 --> Cannot instantiate abstract class App\Controllers\Edit\Currency
+in SYSTEMPATH\CodeIgniter.php on line 860.
+ 1 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 09:09:54 --> Undefined index: id
+in APPPATH\Controllers\Process\BaseProcess.php on line 139.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Process\\BaseProcess.php', 139, [...])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(123): App\Controllers\Process\BaseProcess->edit_inputs()
+ 3 APPPATH\Controllers\Process\BaseProcess.php(58): App\Controllers\Process\BaseProcess->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Currency))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 09:10:28 --> Undefined index: id
+in APPPATH\Controllers\Process\BaseProcess.php on line 139.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Process\\BaseProcess.php', 139, [...])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(123): App\Controllers\Process\BaseProcess->edit_inputs()
+ 3 APPPATH\Controllers\Process\BaseProcess.php(58): App\Controllers\Process\BaseProcess->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Currency))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

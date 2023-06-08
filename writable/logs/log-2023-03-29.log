@@ -1,0 +1,138 @@
+CRITICAL - 2023-03-29 09:11:23 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('53')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('53')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('53')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:11:57 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('41')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('41')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('41')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:14:02 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('41')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('41')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('41')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:14:09 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('41')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('41')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('41')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:41:26 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('41')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('41')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('41')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:41:30 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('28')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('28')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-29 09:57:41 --> Incorrect parameter count in the call to native function 'ifnull'
+CRITICAL - 2023-03-29 09:57:41 --> Incorrect parameter count in the call to native function 'ifnull'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`, ifnull(product_images.id.0)
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+JOIN `product_images` ON `products`.`id` = `product_images`.`product_id`
+WHERE `products`.`id` = \'28\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`, ifnull(product_images.id.0)
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+JOIN `product_images` ON `products`.`id` = `product_images`.`product_id`
+WHERE `products`.`id` = \'28\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`, ifnull(product_images.id.0)
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+JOIN `product_images` ON `products`.`id` = `product_images`.`product_id`
+WHERE `products`.`id` = \'28\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`, ifnull(product_images.id.0)
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+JOIN `product_images` ON `products`.`id` = `product_images`.`product_id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('28')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('28')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 09:59:01 --> Return value of App\Models\MProducts::get_product_info() must be of the type array, null returned
+in APPPATH\Models\MProducts.php on line 51.
+ 1 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('28')
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('28')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 10:23:02 --> Trying to access array offset on value of type null
+in APPPATH\Models\MProducts.php on line 68.
+ 1 APPPATH\Models\MProducts.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Models\\MProducts.php', 68, [...])
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(46): App\Models\MProducts->get_product_image('28')
+ 3 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('28')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 10:34:18 --> Undefined index: product_image
+in APPPATH\Views\Panel\VProductInfo.php on line 3.
+ 1 APPPATH\Views\Panel\VProductInfo.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_image', 'APPPATH\\Views\\Panel\\VProductInfo.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 8 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 10:35:05 --> Array to string conversion
+in APPPATH\Views\Panel\VProductInfo.php on line 3.
+ 1 APPPATH\Views\Panel\VProductInfo.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Panel\\VProductInfo.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 8 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 10:40:59 --> Use of undefined constant PUBLICPATH - assumed 'PUBLICPATH' (this will throw an Error in a future version of PHP)
+in APPPATH\Models\MProducts.php on line 68.
+ 1 APPPATH\Models\MProducts.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant PUBLICPATH - assumed \'PUBLICPATH\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Models\\MProducts.php', 68, [...])
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(46): App\Models\MProducts->get_product_image('28')
+ 3 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('28')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('28')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

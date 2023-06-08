@@ -1,0 +1,254 @@
+CRITICAL - 2022-11-14 06:40:28 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 74.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 06:40:34 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 74.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 06:44:11 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 74.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 06:44:13 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 74.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 74, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 07:04:00 --> Too few arguments to function App\Controllers\Process\ManageBrands::edit_brand(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Process\ManageBrands.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 07:09:34 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 76.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 76, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 07:09:35 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 76.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 76, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 07:16:10 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 39.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(23): App\Libraries\ShowErrors\ShowErrors->convert_error('Edit')
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(39): App\Libraries\ShowErrors\ShowErrors->__invoke('Edit', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(9): App\Controllers\Panel\ManageBrands->show_errors('Edit')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('Edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:15:08 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 80.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 80, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:15:47 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 80.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 80, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:17:54 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 82.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 82, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:19:29 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 82.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 82, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:20:33 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 82.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 82, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:21:53 --> Return value of App\Controllers\Process\ManageBrands::get_user_id() must be of the type string or null, array returned
+in APPPATH\Controllers\Process\ManageBrands.php on line 88.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->get_user_id()
+ 2 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:21:56 --> Return value of App\Controllers\Process\ManageBrands::get_user_id() must be of the type string or null, array returned
+in APPPATH\Controllers\Process\ManageBrands.php on line 88.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->get_user_id()
+ 2 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:24:32 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 84.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 84, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:25:23 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 86, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:33:24 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 86, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:34:04 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 86, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:35:31 --> Class 'App\Controllers\Process\App\Models\MManageBrands' not found
+in APPPATH\Controllers\Process\ManageBrands.php on line 84.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 2 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:36:27 --> Undefined variable: model
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 86, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(78): App\Controllers\Process\ManageBrands->search_user()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:52:46 --> Return value of App\Controllers\Process\ManageBrands::edit_brand() must be of the type string, none returned
+in APPPATH\Controllers\Process\ManageBrands.php on line 78.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 08:53:06 --> Return value of App\Controllers\Process\ManageBrands::edit_brand() must be of the type array, none returned
+in APPPATH\Controllers\Process\ManageBrands.php on line 78.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:07:51 --> Too few arguments to function App\Libraries\Form\Form::hidden(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Panel\ManageBrands.php on line 155 and exactly 2 expected
+in APPPATH\Libraries\Form\Form.php on line 323.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(155): App\Libraries\Form\Form->hidden()
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(144): App\Controllers\Panel\ManageBrands->html_edit_form()
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:15:42 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:15:45 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:15:46 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:16:38 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:45:41 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:45:57 --> Undefined index: userId
+in APPPATH\Controllers\Process\ManageBrands.php on line 89.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: userId', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 89, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(83): App\Controllers\Process\ManageBrands->get_user_id()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(77): App\Controllers\Process\ManageBrands->search_user()
+ 4 APPPATH\Controllers\Process\ManageBrands.php(12): App\Controllers\Process\ManageBrands->edit_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

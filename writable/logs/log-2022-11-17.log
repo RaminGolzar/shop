@@ -1,0 +1,93 @@
+CRITICAL - 2022-11-17 08:43:23 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(815): CodeIgniter\Database\BaseBuilder->_whereIn('id', '1', true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereNotIn('id', '1')
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(11): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Panel\ManageBrands->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 09:38:58 --> Argument 1 passed to CodeIgniter\BaseModel::findColumn() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Panel\ManageBrands.php on line 97
+in SYSTEMPATH\BaseModel.php on line 548.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(97): CodeIgniter\BaseModel->findColumn([...])
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(88): App\Controllers\Panel\ManageBrands->get_brands()
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 09:39:35 --> Only single column allowed in Column name.
+in SYSTEMPATH\BaseModel.php on line 551.
+ 1 SYSTEMPATH\BaseModel.php(551): CodeIgniter\Database\Exceptions\DataException::forFindColumnHaveMultipleColumns()
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(97): CodeIgniter\BaseModel->findColumn('name,deleted_at')
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(88): App\Controllers\Panel\ManageBrands->get_brands()
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 09:39:45 --> Illegal string offset 'deleted_at'
+in APPPATH\Controllers\Panel\ManageBrands.php on line 110.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'deleted_at\'', 'APPPATH\\Controllers\\Panel\\ManageBrands.php', 110, [...])
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(99): App\Controllers\Panel\ManageBrands->active_field_content([...])
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(88): App\Controllers\Panel\ManageBrands->get_brands()
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 09:40:27 --> Only single column allowed in Column name.
+in SYSTEMPATH\BaseModel.php on line 551.
+ 1 SYSTEMPATH\BaseModel.php(551): CodeIgniter\Database\Exceptions\DataException::forFindColumnHaveMultipleColumns()
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(97): CodeIgniter\BaseModel->findColumn('id,name,deleted_at')
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(88): App\Controllers\Panel\ManageBrands->get_brands()
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 11:06:27 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\ManageBrands.php on line 48.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 48, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(31): App\Controllers\Process\ManageBrands->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 11:06:44 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\ManageBrands.php on line 48.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 48, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(31): App\Controllers\Process\ManageBrands->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 11:07:31 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\ManageBrands.php on line 33.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 33, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 11:08:41 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\ManageBrands.php on line 48.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 48, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(31): App\Controllers\Process\ManageBrands->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 11:20:13 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Process\ManageBrands.php on line 52.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Process\\ManageBrands.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Process\\ManageBrands')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Process\\ManageBrands')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Process\\ManageBrands')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Process\\ManageBrands', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,96 @@
+CRITICAL - 2023-04-16 07:41:43 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\Products.php on line 53 and at least 1 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Process\Products.php(53): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 APPPATH\Controllers\Process\Products.php(26): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-16 08:27:02 --> Unknown column 'extension' in 'field list'
+CRITICAL - 2023-04-16 08:27:02 --> Unknown column 'extension' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'115\', \'index.jpg\', \'jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'115\', \'index.jpg\', \'jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'115\', \'index.jpg\', \'jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (:product_id:, :name:, :extension:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Process\Products.php(152): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Process\Products.php(120): App\Controllers\Process\Products->save_upload_info('index.jpg', 'jpg')
+10 APPPATH\Controllers\Process\Products.php(52): App\Controllers\Process\Products->upload_photo()
+11 APPPATH\Controllers\Process\Products.php(26): App\Controllers\Process\Products->save()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:25:20 --> Undefined variable: upload
+in APPPATH\Controllers\Process\Products.php on line 55.
+ 1 APPPATH\Controllers\Process\Products.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: upload', 'APPPATH\\Controllers\\Process\\Products.php', 55, [...])
+ 2 APPPATH\Controllers\Process\Products.php(26): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:29:14 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Process\Products.php on line 219.
+ 1 APPPATH\Controllers\Process\Products.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\Process\\Products.php', 219, [...])
+ 2 APPPATH\Controllers\Process\Products.php(191): App\Controllers\Process\Products->delete_product('119')
+ 3 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:33:49 --> Undefined variable: mProductImage
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mProductImage', 'APPPATH\\Controllers\\Home.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:35:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Process\Products.php on line 221.
+ 1 APPPATH\Controllers\Process\Products.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Process\\Products.php', 221, [...])
+ 2 APPPATH\Controllers\Process\Products.php(191): App\Controllers\Process\Products->delete_product('120')
+ 3 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:37:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 63.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 63, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(50): App\Controllers\Panel\EditProduct->add_product_form('120')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(14): App\Controllers\Panel\EditProduct->edit_product('120')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('120')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 09:38:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Process\Products.php on line 221.
+ 1 APPPATH\Controllers\Process\Products.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Process\\Products.php', 221, [...])
+ 2 APPPATH\Controllers\Process\Products.php(191): App\Controllers\Process\Products->delete_product('121')
+ 3 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 10:15:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Process\Products.php on line 221.
+ 1 APPPATH\Controllers\Process\Products.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Process\\Products.php', 221, [...])
+ 2 APPPATH\Controllers\Process\Products.php(191): App\Controllers\Process\Products->delete_product('123')
+ 3 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 11:20:22 --> unlink(E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\writable\/Uploads/ProductImages/DefaultImages.jpg): No such file or directory
+in APPPATH\Controllers\Process\Products.php on line 237.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(E:\\SoftWare\\xampp 7\\htdocs\\my_projects\\Resume\\Shop\\writable\\/Uploads/ProductImages/DefaultImages.jpg): No such file or directory', 'APPPATH\\Controllers\\Process\\Products.php', 237, [...])
+ 2 APPPATH\Controllers\Process\Products.php(237): unlink('ROOTPATH\\writable\\/Uploads/ProductImages/DefaultImages.jpg')
+ 3 APPPATH\Controllers\Process\Products.php(206): App\Controllers\Process\Products->delete_product('132')
+ 4 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

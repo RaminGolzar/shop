@@ -1,0 +1,16 @@
+CRITICAL - 2023-04-22 07:39:16 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\Panel\VProductInfo.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\Panel\\VProductInfo.php', 18, [...])
+ 2 APPPATH\Views\Panel\VProductInfo.php(18): number_format('ROOTPATH\\public')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+10 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('162')
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,37 @@
+CRITICAL - 2022-11-28 07:08:11 --> Undefined property: App\Controllers\Process\ProductGroups::$get
+in APPPATH\Controllers\Process\ProductGroups.php on line 8.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Process\\ProductGroups::$get', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 8, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('get')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 07:10:40 --> Undefined property: App\Controllers\Process\ProductGroups::$get
+in APPPATH\Controllers\Process\ProductGroups.php on line 9.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Process\\ProductGroups::$get', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('get')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 07:11:15 --> Undefined property: App\Controllers\Process\ProductGroups::$get
+in APPPATH\Controllers\Process\ProductGroups.php on line 9.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Process\\ProductGroups::$get', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 9, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('get')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 07:35:33 --> Return value of App\Controllers\Process\ProductGroups::get_pg_id() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 122.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(113): App\Controllers\Process\ProductGroups->get_pg_id()
+ 2 APPPATH\Controllers\Process\ProductGroups.php(11): App\Controllers\Process\ProductGroups->get()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('get')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 07:51:07 --> Return value of App\Controllers\Process\ProductGroups::get_pg_info() must be of the type array or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 127.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(113): App\Controllers\Process\ProductGroups->get_pg_info('1')
+ 2 APPPATH\Controllers\Process\ProductGroups.php(11): App\Controllers\Process\ProductGroups->get()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('get')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

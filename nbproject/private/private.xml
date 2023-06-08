@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="23">
+        <file>
+            <url>app/Libraries/ShowErrors/ShowErrors.php</url>
+            <bookmark id="14">
+                <name/>
+                <line>71</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>app/Libraries/TEFakeContent/Interpreter/Interpreting/Method.php</url>
+            <bookmark id="18">
+                <name/>
+                <line>10</line>
+                <key/>
+            </bookmark>
+            <bookmark id="19">
+                <name/>
+                <line>46</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/SoftWare/xampp%207/htdocs/my_projects/Resume/Shop/app/Controllers/Home.php</file>
+            <file>file:/E:/SoftWare/xampp%207/htdocs/my_projects/Resume/Shop/app/Libraries/TEFakeContent/TEFakeContent.php</file>
+        </group>
+    </open-files>
+</project-private>

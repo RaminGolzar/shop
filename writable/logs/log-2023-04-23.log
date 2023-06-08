@@ -1,0 +1,301 @@
+CRITICAL - 2023-04-23 07:02:18 --> syntax error, unexpected '}'
+in APPPATH\Controllers\BaseController.php on line 146.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Home.php(13): spl_autoload_call('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 9 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+10 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+11 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:02:47 --> Undefined variable: socialNet
+in APPPATH\Views\Templates\Body\Footer.php on line 4.
+ 1 APPPATH\Views\Templates\Body\Footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: socialNet', 'APPPATH\\Views\\Templates\\Body\\Footer.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Body\\Footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Body/Footer', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(111): view('Templates/Body/Footer')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(82): App\Libraries\LoadView\LoadView->footer_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:04:25 --> Return value of App\Libraries\Elements\Elements::sonet_icon_square() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1126.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon_square('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', true)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], true, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...])
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:04:56 --> Return value of App\Libraries\Elements\Elements::sonet_icon_square() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1126.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon_square('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', true)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], true, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...])
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:05:12 --> Return value of App\Libraries\Elements\Elements::sonet_icon_square() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1126.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon_square('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', true)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], true, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...])
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:05:40 --> Return value of App\Libraries\Elements\Elements::sonet_icon() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1145.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', false)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], false, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...], false)
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:17:52 --> Return value of App\Libraries\Elements\Elements::sonet_icon() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1145.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', false)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], false, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...], false)
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:18:23 --> Return value of App\Libraries\Elements\Elements::sonet_icon() must be of the type string, none returned
+in APPPATH\Libraries\Elements\Elements.php on line 1145.
+ 1 APPPATH\Libraries\Elements\Elements.php(1082): App\Libraries\Elements\Elements->sonet_icon('0')
+ 2 APPPATH\Libraries\Elements\Elements.php(1060): App\Libraries\Elements\Elements->sonet_get_icon('0', false)
+ 3 APPPATH\Libraries\Elements\Elements.php(1007): App\Libraries\Elements\Elements->sonet_items([...], false, 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\BaseController.php(147): App\Libraries\Elements\Elements->socials_network([...], false)
+ 5 APPPATH\Controllers\BaseController.php(101): App\Controllers\BaseController->footer_content()
+ 6 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:23:23 --> Undefined variable: socialNet
+in APPPATH\Views\Templates\Body\Footer.php on line 4.
+ 1 APPPATH\Views\Templates\Body\Footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: socialNet', 'APPPATH\\Views\\Templates\\Body\\Footer.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Body\\Footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Body/Footer', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(111): view('Templates/Body/Footer')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(82): App\Libraries\LoadView\LoadView->footer_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 10:37:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%pro%' ESCAPE '!'
+AND  `description` LIKE '%pro%' ESCAPE '!'' at line 3
+CRITICAL - 2023-04-23 10:37:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%pro%' ESCAPE '!'
+AND  `description` LIKE '%pro%' ESCAPE '!'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE :name as aa: ESCAPE \'!\'
+AND  `description` LIKE :description: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('pro')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('pro')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 10:38:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%pro%' ESCAPE '!'
+AND  `description` LIKE '%pro%' ESCAPE '!'' at line 3
+CRITICAL - 2023-04-23 10:38:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%pro%' ESCAPE '!'
+AND  `description` LIKE '%pro%' ESCAPE '!'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%pro%\' ESCAPE \'!\'
+AND  `description` LIKE \'%pro%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE :name as aa: ESCAPE \'!\'
+AND  `description` LIKE :description: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('pro')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('pro')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 10:38:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%ipsum%' ESCAPE '!'
+AND  `description` LIKE '%ipsum%' ESCAPE '!'' at line 3
+CRITICAL - 2023-04-23 10:38:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `aa` LIKE '%ipsum%' ESCAPE '!'
+AND  `description` LIKE '%ipsum%' ESCAPE '!'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%ipsum%\' ESCAPE \'!\'
+AND  `description` LIKE \'%ipsum%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%ipsum%\' ESCAPE \'!\'
+AND  `description` LIKE \'%ipsum%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE \'%ipsum%\' ESCAPE \'!\'
+AND  `description` LIKE \'%ipsum%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `aa` LIKE :name as aa: ESCAPE \'!\'
+AND  `description` LIKE :description: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('ipsum')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('ipsum')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 10:42:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `a` LIKE '%ipsum%' ESCAPE '!'
+OR  `description` LIKE '%ipsum%' ESCAPE '!'' at line 3
+CRITICAL - 2023-04-23 10:42:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `a` LIKE '%ipsum%' ESCAPE '!'
+OR  `description` LIKE '%ipsum%' ESCAPE '!'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `a` LIKE \'%ipsum%\' ESCAPE \'!\'
+OR  `description` LIKE \'%ipsum%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `a` LIKE \'%ipsum%\' ESCAPE \'!\'
+OR  `description` LIKE \'%ipsum%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `a` LIKE \'%ipsum%\' ESCAPE \'!\'
+OR  `description` LIKE \'%ipsum%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE `name` as `a` LIKE :name as a: ESCAPE \'!\'
+OR  `description` LIKE :description: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('ipsum')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('ipsum')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 10:46:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tt as aaaaa) LIKE '%120000%' ESCAPE '!'' at line 3
+CRITICAL - 2023-04-23 10:46:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(tt as aaaaa) LIKE '%120000%' ESCAPE '!'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE name (tt as aaaaa) LIKE \'%120000%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE name (tt as aaaaa) LIKE \'%120000%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE name (tt as aaaaa) LIKE \'%120000%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`
+FROM `products`
+WHERE name (tt as aaaaa) LIKE :name (tt as aaaaa): ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(101): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('120000')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('120000')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 11:14:44 --> Unknown column 'table' in 'field list'
+CRITICAL - 2023-04-23 11:14:44 --> Unknown column 'table' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`, `table` as `aa`
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`, `table` as `aa`
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`, `table` as `aa`
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`, `table` as `aa`
+FROM `products`
+WHERE `name` LIKE :name: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(101): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('120000')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('120000')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 11:15:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table as aa)
+FROM `products`
+WHERE `name` LIKE '%120000%' ESCAPE '!'' at line 1
+CRITICAL - 2023-04-23 11:15:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table as aa)
+FROM `products`
+WHERE `name` LIKE '%120000%' ESCAPE '!'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `description`, `price`, `discount`, (table as aa)
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `description`, `price`, `discount`, (table as aa)
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `description`, `price`, `discount`, (table as aa)
+FROM `products`
+WHERE `name` LIKE \'%120000%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `description`, `price`, `discount`, (table as aa)
+FROM `products`
+WHERE `name` LIKE :name: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\MProducts.php(101): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Search.php(30): App\Models\MProducts->search('120000')
+ 7 APPPATH\Controllers\Search.php(10): App\Controllers\Search->searching('120000')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Search->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

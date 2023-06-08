@@ -1,0 +1,75 @@
+CRITICAL - 2023-03-07 06:44:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Edit\ShippingMethod.php on line 48.
+ 1 APPPATH\Controllers\Edit\ShippingMethod.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Edit\\ShippingMethod.php', 48, [...])
+ 2 APPPATH\Controllers\Edit\ShippingMethod.php(23): App\Controllers\Edit\ShippingMethod->get_form_data()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(91): App\Controllers\Edit\ShippingMethod->edit_form()
+ 4 APPPATH\Controllers\Edit\BaseEdit.php(66): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 06:59:14 --> Undefined variable: msg
+in APPPATH\Views\Panel\VShippingMethod.php on line 3.
+ 1 APPPATH\Views\Panel\VShippingMethod.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: msg', 'APPPATH\\Views\\Panel\\VShippingMethod.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VShippingMethod.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VShippingMethod', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('Panel/VShippingMethod')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('Panel/VShippingMethod')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('Panel/VShippingMethod', 'Edit Shipping Method')
+ 8 APPPATH\Controllers\BaseController.php(114): App\Libraries\LoadView\LoadView->show('Panel/VShippingMethod', 'Edit Shipping Method')
+ 9 APPPATH\Controllers\Edit\BaseEdit.php(68): App\Controllers\BaseController->view('Panel/VShippingMethod', 'Edit Shipping Method')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:24:19 --> Return value of App\Controllers\Edit\BaseEdit::index() must be an object, none returned
+in APPPATH\Controllers\Edit\BaseEdit.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:25:10 --> Return value of App\Controllers\Edit\BaseEdit::index() must be an object or null, none returned
+in APPPATH\Controllers\Edit\BaseEdit.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 07:25:11 --> Return value of App\Controllers\Edit\BaseEdit::index() must be an object or null, none returned
+in APPPATH\Controllers\Edit\BaseEdit.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 08:42:50 --> Return value of App\Controllers\Process\BaseProcess::index() must be an object, none returned
+in APPPATH\Controllers\Process\BaseProcess.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 09:22:09 --> Only variables should be passed by reference
+in APPPATH\Controllers\Process\BaseProcess.php on line 97.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\Process\\BaseProcess.php', 97, [])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(41): App\Controllers\Process\BaseProcess->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 09:22:40 --> Undefined index: id
+in APPPATH\Controllers\Process\BaseProcess.php on line 116.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Process\\BaseProcess.php', 116, [...])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(97): App\Controllers\Process\BaseProcess->editing([...])
+ 3 APPPATH\Controllers\Process\BaseProcess.php(41): App\Controllers\Process\BaseProcess->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 09:29:41 --> Argument 1 passed to App\Controllers\Process\BaseProcess::set_deleted_at() must be of the type array, string given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\BaseProcess.php on line 110
+in APPPATH\Controllers\Process\BaseProcess.php on line 146.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(110): App\Controllers\Process\BaseProcess->set_deleted_at('1')
+ 2 APPPATH\Controllers\Process\BaseProcess.php(97): App\Controllers\Process\BaseProcess->edit_inputs()
+ 3 APPPATH\Controllers\Process\BaseProcess.php(41): App\Controllers\Process\BaseProcess->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

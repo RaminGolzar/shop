@@ -1,0 +1,224 @@
+CRITICAL - 2022-11-06 07:33:35 --> Trait 'App\Libraries\LoadView\Attachments' not found
+in APPPATH\Libraries\LoadView\LoadView.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 07:47:15 --> Trait 'App\Libraries\LoadView\App\Libraries\LoadView\Attachments' not found
+in APPPATH\Libraries\LoadView\LoadView.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 07:47:17 --> Trait 'App\Libraries\LoadView\App\Libraries\LoadView\Attachments' not found
+in APPPATH\Libraries\LoadView\LoadView.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 07:47:41 --> Trait 'App\Libraries\LoadView\Attachments' not found
+in APPPATH\Libraries\LoadView\LoadView.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 07:47:51 --> Trait 'App\Libraries\LoadView\App\Libraries\LoadView\Attachments' not found
+in APPPATH\Libraries\LoadView\LoadView.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 07:52:53 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 87.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 07:58:01 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 87.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 07:58:03 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 87.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 07:58:33 --> Undefined variable: title
+in APPPATH\Views\Templates\Head.php on line 7.
+ 1 APPPATH\Views\Templates\Head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Templates\\Head.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Head')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 07:59:33 --> Undefined variable: title
+in APPPATH\Views\Templates\Head.php on line 7.
+ 1 APPPATH\Views\Templates\Head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Templates\\Head.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Head')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:02:47 --> Undefined variable: title
+in APPPATH\Views\Templates\Head.php on line 7.
+ 1 APPPATH\Views\Templates\Head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Templates\\Head.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Head')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:03:53 --> Undefined variable: nav
+in APPPATH\Views\Templates\Header.php on line 3.
+ 1 APPPATH\Views\Templates\Header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nav', 'APPPATH\\Views\\Templates\\Header.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(100): view('Templates/Header', [...])
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:04:49 --> Undefined variable: title
+in APPPATH\Views\Templates\Head.php on line 7.
+ 1 APPPATH\Views\Templates\Head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\Templates\\Head.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Head.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Head')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:07:39 --> Undefined variable: nav
+in APPPATH\Views\Templates\Header.php on line 3.
+ 1 APPPATH\Views\Templates\Header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nav', 'APPPATH\\Views\\Templates\\Header.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(98): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:09:06 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 87.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:10:43 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 87.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:29:47 --> Cannot access uninitialized non-nullable property App\Controllers\BaseController::$data by reference
+in APPPATH\Controllers\BaseController.php on line 96.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:31:00 --> Cannot access uninitialized non-nullable property App\Controllers\BaseController::$data by reference
+in APPPATH\Controllers\BaseController.php on line 96.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:31:01 --> Cannot access uninitialized non-nullable property App\Controllers\BaseController::$data by reference
+in APPPATH\Controllers\BaseController.php on line 96.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:31:42 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 98.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 08:32:05 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 89.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 09:40:30 --> Cannot redeclare App\Controllers\BaseController::$javaScript
+in APPPATH\Controllers\BaseController.php on line 201.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-06 09:42:20 --> Call to undefined function App\Libraries\LoadView\Attachments\script_tag()
+in APPPATH\Libraries\LoadView\Attachments\JavaScript.php on line 20.
+ 1 APPPATH\Controllers\BaseController.php(121): App\Libraries\LoadView\LoadView->java_script([...])
+ 2 APPPATH\Controllers\BaseController.php(102): App\Controllers\BaseController->view_script(Object(App\Libraries\LoadView\LoadView))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(17): App\Controllers\BaseController->view('Panel\\VManageBrands', 'Manage Brands')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 09:44:16 --> Undefined variable: nav
+in APPPATH\Views\Templates\Header.php on line 3.
+ 1 APPPATH\Views\Templates\Header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nav', 'APPPATH\\Views\\Templates\\Header.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(99): view('Templates/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(87): App\Libraries\LoadView\LoadView->load_header()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('Panel\\VManageBrands')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('Panel\\VManageBrands', 'Manage Brands')
+ 9 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->view('Panel\\VManageBrands', 'Manage Brands')
+10 APPPATH\Controllers\Panel\ManageBrands.php(17): App\Controllers\BaseController->view('Panel\\VManageBrands', 'Manage Brands')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-06 09:46:00 --> Undefined variable: formEdit
+in APPPATH\Views\Panel\VManageBrands.php on line 14.
+ 1 APPPATH\Views\Panel\VManageBrands.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: formEdit', 'APPPATH\\Views\\Panel\\VManageBrands.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VManageBrands.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel\\VManageBrands', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(89): view('Panel\\VManageBrands')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(60): App\Libraries\LoadView\LoadView->load_views('Panel\\VManageBrands')
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(33): App\Libraries\LoadView\LoadView->render_view('Panel\\VManageBrands', 'Manage Brands')
+ 8 APPPATH\Controllers\BaseController.php(106): App\Libraries\LoadView\LoadView->view('Panel\\VManageBrands', 'Manage Brands')
+ 9 APPPATH\Controllers\Panel\ManageBrands.php(17): App\Controllers\BaseController->view('Panel\\VManageBrands', 'Manage Brands')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,58 @@
+CRITICAL - 2022-11-21 06:58:23 --> Undefined variable: nav
+in APPPATH\Views\Panel\Templates\Body\Header.php on line 1.
+ 1 APPPATH\Views\Panel\Templates\Body\Header.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nav', 'APPPATH\\Views\\Panel\\Templates\\Body\\Header.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\Templates\\Body\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/Templates/Body/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(95): view('Panel/Templates/Body/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(76): App\Libraries\LoadView\LoadView->header_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('Panel/VDashboard')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('Panel/VDashboard', 'Dashboard')
+ 9 APPPATH\Controllers\Panel\BaseController.php(106): App\Libraries\LoadView\LoadView->show('Panel/VDashboard', 'Dashboard')
+10 APPPATH\Controllers\Panel\Dashboard.php(9): App\Controllers\Panel\BaseController->view('Panel/VDashboard', 'Dashboard')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 08:46:26 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Panel\ProductGroups.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Panel\\ProductGroups.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Panel\\ProductGroups')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Panel\\ProductGroups')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Panel\\ProductGroups')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Panel\\ProductGroups', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 08:47:45 --> Undefined variable: title
+in APPPATH\Controllers\Panel\ProductGroups.php on line 7.
+ 1 APPPATH\Controllers\Panel\ProductGroups.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Controllers\\Panel\\ProductGroups.php', 7, [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 09:47:57 --> Too few arguments to function App\Controllers\Panel\ProductGroups::index(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Panel\ProductGroups.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 09:48:53 --> Class 'App\Controllers\Panel\ShowErrors' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 170.
+ 1 APPPATH\Controllers\Panel\ProductGroups.php(13): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 10:51:07 --> Cannot pass parameter 1 by reference
+in APPPATH\Controllers\Panel\ManageBrands.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"name":"The name field must be at least 3 characters in length."}')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 10:51:13 --> Cannot pass parameter 1 by reference
+in APPPATH\Controllers\Panel\ManageBrands.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"name":"The name field must be at least 3 characters in length."}')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

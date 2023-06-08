@@ -1,0 +1,143 @@
+CRITICAL - 2023-04-12 06:19:50 --> Undefined variable: file
+in APPPATH\Controllers\Process\Products.php on line 99.
+ 1 APPPATH\Controllers\Process\Products.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: file', 'APPPATH\\Controllers\\Process\\Products.php', 99, [...])
+ 2 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 3 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 06:43:53 --> SplFileInfo::getOwner(): stat failed for E:\SoftWare\xampp 7\tmp\phpBB10.tmp
+in APPPATH\Controllers\Process\Products.php on line 101.
+ 1 APPPATH\Controllers\Process\Products.php(101): SplFileInfo->getOwner()
+ 2 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 3 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 06:47:07 --> finfo_file(E:\SoftWare\xampp 7\tmp\phpAFDE.tmp): failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(E:\\SoftWare\\xampp 7\\tmp\\phpAFDE.tmp): failed to open stream: No such file or directory', 'SYSTEMPATH\\Files\\File.php', 109, [...])
+ 2 SYSTEMPATH\Files\File.php(109): finfo_file(resource (file_info), 'E:\\SoftWare\\xampp 7\\tmp\\phpAFDE.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 APPPATH\Controllers\Process\Products.php(101): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 6 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 06:48:58 --> SplFileInfo::getATime(): stat failed for E:\SoftWare\xampp 7\tmp\php63A3.tmp
+in APPPATH\Controllers\Process\Products.php on line 101.
+ 1 APPPATH\Controllers\Process\Products.php(101): SplFileInfo->getATime()
+ 2 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 3 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 06:57:20 --> Return value of App\Controllers\Process\Products::upload_photo() must be of the type string, none returned
+in APPPATH\Controllers\Process\Products.php on line 100.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 08:32:38 --> Undefined index: id
+in APPPATH\Controllers\Process\Products.php on line 43.
+ 1 APPPATH\Controllers\Process\Products.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Process\\Products.php', 43, [...])
+ 2 APPPATH\Controllers\Process\Products.php(19): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 08:33:00 --> Undefined index: id
+in APPPATH\Controllers\Process\Products.php on line 43.
+ 1 APPPATH\Controllers\Process\Products.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Process\\Products.php', 43, [...])
+ 2 APPPATH\Controllers\Process\Products.php(19): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 08:33:31 --> Undefined index: product_id
+in APPPATH\Controllers\Process\Products.php on line 43.
+ 1 APPPATH\Controllers\Process\Products.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_id', 'APPPATH\\Controllers\\Process\\Products.php', 43, [...])
+ 2 APPPATH\Controllers\Process\Products.php(19): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 09:13:08 --> Unknown column 'extension' in 'field list'
+CRITICAL - 2023-04-12 09:13:08 --> Unknown column 'extension' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'104\', \'2023_03_29_0sb_Kleki.jpg\', \'jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'104\', \'2023_03_29_0sb_Kleki.jpg\', \'jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (\'104\', \'2023_03_29_0sb_Kleki.jpg\', \'jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_images` (`product_id`, `name`, `extension`) VALUES (:product_id:, :name:, :extension:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Process\Products.php(145): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Process\Products.php(116): App\Controllers\Process\Products->save_upload_info('2023_03_29_0sb_Kleki.jpg', 'jpg')
+10 APPPATH\Controllers\Process\Products.php(52): App\Controllers\Process\Products->upload_photo()
+11 APPPATH\Controllers\Process\Products.php(26): App\Controllers\Process\Products->save()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 09:57:13 --> Call to a member function getFileInfo() on null
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 09:58:02 --> Unknown column 'produxts.id' in 'where clause'
+CRITICAL - 2023-04-12 09:58:02 --> Unknown column 'produxts.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `products` SET `deleted_at` = \'2023-04-12 09:58:02\', `updated_at` = \'2023-04-12 09:58:02\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `deleted_at` = \'2023-04-12 09:58:02\', `updated_at` = \'2023-04-12 09:58:02\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `deleted_at` = \'2023-04-12 09:58:02\', `updated_at` = \'2023-04-12 09:58:02\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `deleted_at` = :deleted_at:, `updated_at` = :updated_at:
+WHERE `produxts`.`id` = :produxts.id:
+AND `deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(397): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Process\Products.php(213): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Process\Products.php(190): App\Controllers\Process\Products->delete_product('105')
+ 9 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 10:00:19 --> Unknown column 'produxts.id' in 'where clause'
+CRITICAL - 2023-04-12 10:00:19 --> Unknown column 'produxts.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `products` SET `deleted_at` = \'2023-04-12 10:00:19\', `updated_at` = \'2023-04-12 10:00:19\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `deleted_at` = \'2023-04-12 10:00:19\', `updated_at` = \'2023-04-12 10:00:19\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `deleted_at` = \'2023-04-12 10:00:19\', `updated_at` = \'2023-04-12 10:00:19\'
+WHERE `produxts`.`id` = \'105\'
+AND `deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `deleted_at` = :deleted_at:, `updated_at` = :updated_at:
+WHERE `produxts`.`id` = :produxts.id:
+AND `deleted_at` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(397): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Process\Products.php(213): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Process\Products.php(190): App\Controllers\Process\Products->delete_product('105')
+ 9 APPPATH\Controllers\Process\Products.php(29): App\Controllers\Process\Products->delete()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

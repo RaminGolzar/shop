@@ -1,0 +1,86 @@
+CRITICAL - 2022-12-13 07:03:33 --> Too few arguments to function App\Libraries\TEFakeContent\GenContent\Ordinal::num(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\GenContent.php on line 130 and exactly 2 expected
+in APPPATH\Libraries\TEFakeContent\GenContent\Ordinal.php on line 106.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(130): App\Libraries\TEFakeContent\GenContent\Ordinal->num(false)
+ 2 APPPATH\Controllers\Home.php(21): App\Libraries\TEFakeContent\GenContent\GenContent->ordinal_num()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 07:26:39 --> Too few arguments to function App\Libraries\TEFakeContent\GenContent\GenContent::accidental_upper_alpha(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Home.php on line 27 and exactly 1 expected
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 29.
+ 1 APPPATH\Controllers\Home.php(27): App\Libraries\TEFakeContent\GenContent\GenContent->accidental_upper_alpha()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:27:50 --> syntax error, unexpected '&'
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum')
+ 4 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(188): spl_autoload_call('App\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum')
+ 5 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(30, 50)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:39:33 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum::char_extract() must be of the type string, none returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php on line 65.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php(54): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char_extract([...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php(27): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char_result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(190): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char(0, 0)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(0, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 08:47:52 --> Only variables should be passed by reference
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php on line 62.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum.php', 62, [...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum.php(27): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char_result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(190): App\Libraries\TEFakeContent\GenContent\LoremIpsum->char(0, 20)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(0, 20)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:34:11 --> Undefined class constant 'TEXT_LENGTH'
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php on line 58.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(32): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->get_char_offset(93)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(15): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char_index(40, 100)
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(197): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char(40, 100)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(40, 100)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:34:42 --> Cannot access private const App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::TEXT_LENGTH
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php on line 58.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(32): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->get_char_offset(57)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(15): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char_index(40, 100)
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(197): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char(40, 100)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(40, 100)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:35:08 --> Undefined property: App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character::$text
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php on line 84.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum\\Character::$text', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum\\Character.php', 84, [...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(70): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char_extract([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(15): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char_result([...])
+ 4 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(197): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char(40, 100)
+ 5 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(40, 100)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:36:48 --> Call to private method App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_start() from context 'App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character'
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php on line 72.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Character.php(15): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char_result([...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(197): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Character->char(40, 100)
+ 3 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_char(40, 100)
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

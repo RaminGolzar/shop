@@ -1,0 +1,384 @@
+CRITICAL - 2023-03-15 07:34:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Entry.php on line 60.
+ 1 APPPATH\Controllers\Entry.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Entry.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 07:35:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Entry.php on line 60.
+ 1 APPPATH\Controllers\Entry.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Entry.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-15 07:35:44 --> Unknown column 'name' in 'field list'
+CRITICAL - 2023-03-15 07:35:44 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = :email:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Libraries\KingAuth\Handlers\GetUser.php(44): CodeIgniter\BaseModel->find()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(252): App\Libraries\KingAuth\Handlers\GetUser->get('MUser', [...], 'name,email')
+ 9 APPPATH\Libraries\KingAuth\Handlers\Entry.php(122): App\Libraries\KingAuth\KingAuth->get_user('MUser', [...], 'name,email')
+10 APPPATH\Libraries\KingAuth\Handlers\Entry.php(93): App\Libraries\KingAuth\Handlers\Entry->account_checksum('MUser')
+11 APPPATH\Libraries\KingAuth\Handlers\Entry.php(45): App\Libraries\KingAuth\Handlers\Entry->sign_in('MUser')
+12 APPPATH\Libraries\KingAuth\KingAuth.php(297): App\Libraries\KingAuth\Handlers\Entry->login('MUser', [...], [...], null)
+13 APPPATH\Controllers\Entry.php(60): App\Libraries\KingAuth\KingAuth->user_login('MUser', [...], [...])
+14 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+15 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-15 07:35:55 --> Unknown column 'name' in 'field list'
+CRITICAL - 2023-03-15 07:35:55 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'sdfds\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'sdfds\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = \'sdfds\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `name`, `email`
+FROM `user`
+WHERE `email` = :email:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Libraries\KingAuth\Handlers\GetUser.php(44): CodeIgniter\BaseModel->find()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(252): App\Libraries\KingAuth\Handlers\GetUser->get('MUser', [...], 'name,email')
+ 9 APPPATH\Libraries\KingAuth\Handlers\Entry.php(122): App\Libraries\KingAuth\KingAuth->get_user('MUser', [...], 'name,email')
+10 APPPATH\Libraries\KingAuth\Handlers\Entry.php(93): App\Libraries\KingAuth\Handlers\Entry->account_checksum('MUser')
+11 APPPATH\Libraries\KingAuth\Handlers\Entry.php(45): App\Libraries\KingAuth\Handlers\Entry->sign_in('MUser')
+12 APPPATH\Libraries\KingAuth\KingAuth.php(297): App\Libraries\KingAuth\Handlers\Entry->login('MUser', [...], [...], null)
+13 APPPATH\Controllers\Entry.php(60): App\Libraries\KingAuth\KingAuth->user_login('MUser', [...], [...])
+14 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+15 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:05:57 --> Return value of App\Controllers\Entry::sign_in() must be an object or null, none returned
+in APPPATH\Controllers\Entry.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:09:50 --> Argument 1 passed to App\Controllers\BaseController::msg() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Entry.php on line 70
+in APPPATH\Controllers\BaseController.php on line 215.
+ 1 APPPATH\Controllers\Entry.php(70): App\Controllers\BaseController->msg([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:11:47 --> Too few arguments to function App\Controllers\BaseController::msg(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Entry.php on line 70 and exactly 2 expected
+in APPPATH\Controllers\BaseController.php on line 215.
+ 1 APPPATH\Controllers\Entry.php(70): App\Controllers\BaseController->msg('{"fail":{"Entry":"Incorrect username"}}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:13:38 --> Too few arguments to function App\Controllers\BaseController::msg(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Entry.php on line 70 and exactly 2 expected
+in APPPATH\Controllers\BaseController.php on line 215.
+ 1 APPPATH\Controllers\Entry.php(70): App\Controllers\BaseController->msg('{"fail":"Incorrect username"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:14:36 --> Undefined property: App\Libraries\KingAuth\KingAuth::$error
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 APPPATH\Controllers\Entry.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\KingAuth\\KingAuth::$error', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:15:04 --> json_encode() expects parameter 2 to be int, array given
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects parameter 2 to be int, array given', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 APPPATH\Controllers\Entry.php(70): json_encode('Error', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:15:06 --> json_encode() expects parameter 2 to be int, array given
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects parameter 2 to be int, array given', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 APPPATH\Controllers\Entry.php(70): json_encode('Error', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:16:08 --> json_encode() expects parameter 2 to be int, array given
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects parameter 2 to be int, array given', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 APPPATH\Controllers\Entry.php(70): json_encode('Error', [...], 1)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:16:39 --> json_encode() expects parameter 2 to be int, array given
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects parameter 2 to be int, array given', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 APPPATH\Controllers\Entry.php(70): json_encode('Error', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:19:03 --> Too few arguments to function App\Controllers\BaseController::msg(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Entry.php on line 70 and exactly 2 expected
+in APPPATH\Controllers\BaseController.php on line 215.
+ 1 APPPATH\Controllers\Entry.php(70): App\Controllers\BaseController->msg('{"key":"value"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:19:35 --> json_encode() expects parameter 2 to be int, array given
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() expects parameter 2 to be int, array given', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 APPPATH\Controllers\Entry.php(70): json_encode('fail', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:20:11 --> Only variables should be passed by reference
+in APPPATH\Controllers\Entry.php on line 70.
+ 1 APPPATH\Controllers\Entry.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\Entry.php', 70, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:23:46 --> Undefined variable: msg
+in APPPATH\Views\VEntry.php on line 2.
+ 1 APPPATH\Views\VEntry.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: msg', 'APPPATH\\Views\\VEntry.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEntry.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VEntry', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VEntry')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VEntry')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VEntry', 'Lang.pages.sr')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VEntry', 'Lang.pages.sr')
+ 9 APPPATH\Controllers\Entry.php(17): App\Controllers\BaseController->view('VEntry', 'Lang.pages.sr')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 08:23:50 --> Undefined variable: msg
+in APPPATH\Views\VEntry.php on line 2.
+ 1 APPPATH\Views\VEntry.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: msg', 'APPPATH\\Views\\VEntry.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEntry.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VEntry', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VEntry')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VEntry')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VEntry', 'Lang.pages.sr')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VEntry', 'Lang.pages.sr')
+ 9 APPPATH\Controllers\Entry.php(17): App\Controllers\BaseController->view('VEntry', 'Lang.pages.sr')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Entry->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entry))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:09:33 --> Too few arguments to function App\Controllers\Register::index(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Register.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:31:27 --> Undefined variable: registerForm
+in APPPATH\Views\VRegister.php on line 6.
+ 1 APPPATH\Views\VRegister.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: registerForm', 'APPPATH\\Views\\VRegister.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VRegister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VRegister', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VRegister')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VRegister')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VRegister', 'Register')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VRegister', 'Register')
+ 9 APPPATH\Controllers\Register.php(17): App\Controllers\BaseController->view('VRegister', 'Register')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:32:15 --> Undefined variable: registerForm
+in APPPATH\Views\VRegister.php on line 6.
+ 1 APPPATH\Views\VRegister.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: registerForm', 'APPPATH\\Views\\VRegister.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VRegister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VRegister', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VRegister')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VRegister')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VRegister', 'Register')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VRegister', 'Register')
+ 9 APPPATH\Controllers\Register.php(17): App\Controllers\BaseController->view('VRegister', 'Register')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:32:36 --> Undefined variable: registerForm
+in APPPATH\Views\VRegister.php on line 6.
+ 1 APPPATH\Views\VRegister.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: registerForm', 'APPPATH\\Views\\VRegister.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VRegister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VRegister', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VRegister')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VRegister')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VRegister', 'Register')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VRegister', 'Register')
+ 9 APPPATH\Controllers\Register.php(17): App\Controllers\BaseController->view('VRegister', 'Register')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:32:44 --> Undefined variable: registerForm
+in APPPATH\Views\VRegister.php on line 6.
+ 1 APPPATH\Views\VRegister.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: registerForm', 'APPPATH\\Views\\VRegister.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VRegister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VRegister', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VRegister')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VRegister')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VRegister', 'Register')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('VRegister', 'Register')
+ 9 APPPATH\Controllers\Register.php(17): App\Controllers\BaseController->view('VRegister', 'Register')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 09:44:52 --> Call to undefined function App\Libraries\Form\form_label()
+in APPPATH\Libraries\Form\Form.php on line 86.
+ 1 APPPATH\Controllers\Register.php(30): App\Libraries\Form\Form->text('username', 'User Name')
+ 2 APPPATH\Controllers\Register.php(17): App\Controllers\Register->register_form()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:43:02 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\Validation\Validation.php on line 305
+in SYSTEMPATH\Validation\Rules.php on line 126.
+ 1 SYSTEMPATH\Validation\Validation.php(305): CodeIgniter\Validation\Rules->is_unique('user_reg@email.ir', null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('email', 'email', 'user_reg@email.ir', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Libraries\KingAuth\Handlers\Register.php(55): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Libraries\KingAuth\Handlers\Register.php(47): App\Libraries\KingAuth\Handlers\Register->save()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(280): App\Libraries\KingAuth\Handlers\Register->register('MUser', [...], 'password')
+ 9 APPPATH\Controllers\Register.php(46): App\Libraries\KingAuth\KingAuth->register_user('MUser', [...], 'password')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->register_user()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:43:22 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\Validation\Validation.php on line 305
+in SYSTEMPATH\Validation\Rules.php on line 126.
+ 1 SYSTEMPATH\Validation\Validation.php(305): CodeIgniter\Validation\Rules->is_unique('a@a.ir', null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('email', 'email', 'a@a.ir', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Libraries\KingAuth\Handlers\Register.php(55): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Libraries\KingAuth\Handlers\Register.php(47): App\Libraries\KingAuth\Handlers\Register->save()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(280): App\Libraries\KingAuth\Handlers\Register->register('MUser', [...], 'password')
+ 9 APPPATH\Controllers\Register.php(46): App\Libraries\KingAuth\KingAuth->register_user('MUser', [...], 'password')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->register_user()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:45:29 --> maches is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('maches')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('confirm_password', 'confirm_password', '1111', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Libraries\KingAuth\Handlers\Register.php(55): CodeIgniter\Model->insert([...])
+ 7 APPPATH\Libraries\KingAuth\Handlers\Register.php(47): App\Libraries\KingAuth\Handlers\Register->save()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(280): App\Libraries\KingAuth\Handlers\Register->register('MUser', [...], 'password')
+ 9 APPPATH\Controllers\Register.php(46): App\Libraries\KingAuth\KingAuth->register_user('MUser', [...], 'password')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->register_user()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:47:12 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"username":"The username field must be at least 3 characters in length."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"username":"The username field must be at least 3 characters in length."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"username":"The username field must be at least 3 characters in length."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:47:53 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"username":"The username field must be at least 3 characters in length."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"username":"The username field must be at least 3 characters in length."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"username":"The username field must be at least 3 characters in length."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 10:50:04 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 11:05:07 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"password":"The password field may only contain alphanumeric and space characters."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 11:11:33 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"email":"The email field must contain a unique value."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 11:11:45 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"email":"The email field must contain a unique value."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 11:11:46 --> Array to string conversion
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 70.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\ShowMessage\\ShowMessage.php', 70, [...])
+ 2 APPPATH\Libraries\ShowMessage\ShowMessage.php(36): App\Libraries\ShowMessage\ShowMessage->gen_msg_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\BaseController.php(222): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Register.php(11): App\Controllers\BaseController->msg('ROOTPATH\\public', '{"Validation":{"email":"The email field must contain a unique value."}}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->index('{"Validation":{"email":"The email field must contain a unique value."}}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-15 11:12:01 --> Undefined index: validation
+in APPPATH\Controllers\Register.php on line 51.
+ 1 APPPATH\Controllers\Register.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: validation', 'APPPATH\\Controllers\\Register.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->register_user()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

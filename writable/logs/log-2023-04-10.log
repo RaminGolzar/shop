@@ -1,0 +1,30 @@
+ERROR - 2023-04-10 08:28:38 --> Unknown column 'product.id' in 'field list'
+CRITICAL - 2023-04-10 08:28:38 --> Unknown column 'product.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product`.`id` as `product_id`, `products`.`name` as `product_name`, `description`, `price`, `products`.`discount`, products.price - ifnull(products.discount, 0) as total_price, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `products`.`id` = \'34\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product`.`id` as `product_id`, `products`.`name` as `product_name`, `description`, `price`, `products`.`discount`, products.price - ifnull(products.discount, 0) as total_price, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `products`.`id` = \'34\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product`.`id` as `product_id`, `products`.`name` as `product_name`, `description`, `price`, `products`.`discount`, products.price - ifnull(products.discount, 0) as total_price, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `products`.`id` = \'34\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `product`.`id` as `product_id`, `products`.`name` as `product_name`, `description`, `price`, `products`.`discount`, products.price - ifnull(products.discount, 0) as total_price, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductInfo.php(44): App\Models\MProducts->get_product_info('34')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(15): App\Controllers\Panel\ProductInfo->set_product_info('34')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('34')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

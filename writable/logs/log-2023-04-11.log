@@ -1,0 +1,86 @@
+CRITICAL - 2023-04-11 09:22:11 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Home.php on line 33 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 744.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->h()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 09:27:23 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Home.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->h()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 09:27:45 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+in APPPATH\Controllers\Home.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->h()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 09:30:30 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::__get()
+in APPPATH\Controllers\Home.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->h()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:44:14 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\Products.php on line 90 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 744.
+ 1 APPPATH\Controllers\Process\Products.php(90): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 3 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:44:54 --> Call to a member function move() on null
+in APPPATH\Controllers\Process\Products.php on line 92.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:47:14 --> Call to a member function move() on null
+in APPPATH\Controllers\Process\Products.php on line 92.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:47:42 --> Call to a member function move() on null
+in APPPATH\Controllers\Process\Products.php on line 92.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:49:19 --> Call to a member function move() on null
+in APPPATH\Controllers\Process\Products.php on line 92.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:51:16 --> Call to a member function move() on null
+in APPPATH\Controllers\Process\Products.php on line 92.
+ 1 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 2 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:52:56 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\Products.php on line 90 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 744.
+ 1 APPPATH\Controllers\Process\Products.php(90): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 APPPATH\Controllers\Process\Products.php(41): App\Controllers\Process\Products->upload_photo()
+ 3 APPPATH\Controllers\Process\Products.php(18): App\Controllers\Process\Products->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:55:30 --> Cannot use CodeIgniter\Controller as Controller because the name is already in use
+in APPPATH\Controllers\Process\Products.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

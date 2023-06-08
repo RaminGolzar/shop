@@ -1,0 +1,121 @@
+CRITICAL - 2022-11-05 07:06:23 --> Call to private method App\Libraries\Elements\Elements::modal_head_title() from context 'App\Controllers\Panel\ManageBrands'
+in APPPATH\Controllers\Panel\ManageBrands.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:05:34 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Libraries\Elements\Elements.php on line 1855.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\Elements\\Elements.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Elements\\Elements')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Elements\\Elements')
+ 4 APPPATH\Controllers\BaseController.php(60): spl_autoload_call('App\\Libraries\\Elements\\Elements')
+ 5 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:06:14 --> Call to private method App\Libraries\Elements\Elements::modal_head_title() from context 'App\Controllers\Panel\ManageBrands'
+in APPPATH\Controllers\Panel\ManageBrands.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:08:22 --> Argument 1 passed to App\Libraries\Elements\Elements::modal_gen_head() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\Elements\Elements.php on line 1826
+in APPPATH\Libraries\Elements\Elements.php on line 1852.
+ 1 APPPATH\Libraries\Elements\Elements.php(1826): App\Libraries\Elements\Elements->modal_gen_head(null, '<span class="w3-padding w3-display-right fas fa-times " onclick="document.getElementById(\'edit_modal\').style.display=\'none\';" ></span>')
+ 2 APPPATH\Libraries\Elements\Elements.php(1814): App\Libraries\Elements\Elements->modal_head(null, true)
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(9): App\Libraries\Elements\Elements->modal('aa')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:35:04 --> Argument 1 passed to App\Libraries\Elements\Handlers\Tag::h() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\Elements\Elements.php on line 1837
+in APPPATH\Libraries\Elements\Handlers\Tag.php on line 670.
+ 1 APPPATH\Libraries\Elements\Elements.php(1837): App\Libraries\Elements\Handlers\Tag->h([...], '4', [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1822): App\Libraries\Elements\Elements->modal_head_title('Edit')
+ 3 APPPATH\Libraries\Elements\Elements.php(1814): App\Libraries\Elements\Elements->modal_head('Edit', true)
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(141): App\Libraries\Elements\Elements->modal('aa', '<form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', 'Edit')
+ 5 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"name":"The name field is required."}')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:35:10 --> Argument 1 passed to App\Libraries\Elements\Handlers\Tag::h() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\Elements\Elements.php on line 1837
+in APPPATH\Libraries\Elements\Handlers\Tag.php on line 670.
+ 1 APPPATH\Libraries\Elements\Elements.php(1837): App\Libraries\Elements\Handlers\Tag->h([...], '4', [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1822): App\Libraries\Elements\Elements->modal_head_title('Edit')
+ 3 APPPATH\Libraries\Elements\Elements.php(1814): App\Libraries\Elements\Elements->modal_head('Edit', true)
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(141): App\Libraries\Elements\Elements->modal('aa', '<form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', 'Edit')
+ 5 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:40:20 --> Undefined variable: tilte
+in APPPATH\Libraries\Elements\Elements.php on line 1837.
+ 1 APPPATH\Libraries\Elements\Elements.php(1837): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tilte', 'APPPATH\\Libraries\\Elements\\Elements.php', 1837, [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1822): App\Libraries\Elements\Elements->modal_head_title('Edit')
+ 3 APPPATH\Libraries\Elements\Elements.php(1814): App\Libraries\Elements\Elements->modal_head('Edit', true)
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(141): App\Libraries\Elements\Elements->modal('aa', '<form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', 'Edit')
+ 5 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 10:09:15 --> Only variables should be passed by reference
+in APPPATH\Libraries\Elements\Elements.php on line 1871.
+ 1 APPPATH\Libraries\Elements\Elements.php(1871): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Libraries\\Elements\\Elements.php', 1871, [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1818): App\Libraries\Elements\Elements->modal_generate('<section class="w3-row w3-display-container " style=" height: 40px;" ><h4 class="w3-margin-left w3-medium w3-half " ><b>Edit</b></h4><span class="w3-padding w3-display-right fas fa-times " onclick="document.getElementById(\'aa\').style.display=\'none\';" ></span></section><form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', 'aa')
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(141): App\Libraries\Elements\Elements->modal('aa', '<form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', '<b>Edit</b>')
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 10:09:21 --> Only variables should be passed by reference
+in APPPATH\Libraries\Elements\Elements.php on line 1871.
+ 1 APPPATH\Libraries\Elements\Elements.php(1871): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Libraries\\Elements\\Elements.php', 1871, [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1818): App\Libraries\Elements\Elements->modal_generate('<section class="w3-row w3-display-container " style=" height: 40px;" ><h4 class="w3-margin-left w3-medium w3-half " ><b>Edit</b></h4><span class="w3-padding w3-display-right fas fa-times " onclick="document.getElementById(\'aa\').style.display=\'none\';" ></span></section><form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', 'aa')
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(141): App\Libraries\Elements\Elements->modal('aa', '<form action="http://localhost/my_projects/Resume/Shop/public/ManageBrands/Process/edit" method="post" class="w3-padding-large " accept-charset="utf-8">
+<section class=\'w3-margin-top w3-row\'><label for="name">Brand Name</label><input type="text" name="name" value="" id=\'name\' class=\'w3-margin-bottom w3-input w3-border w3-round w3-margin-top w3-white\' placeholder=\'\' />
+</section><section class=\'w3-margin-top w3-row\'><input type="checkbox" name="deleted_at" value="1" id=\'deleted_at\' class=\'w3-check w3-margin-top\' />
+<label for="deleted_at" class="w3-padding-small">Active</label></section><section class=\'w3-margin-top w3-row\'><input type="submit" name="btn_edit" value="Edit" id=\'btn_edit green\' class=\'w3-margin-top w3-button w3-round w3-mobile w3-margin-left w3-right w3-green w3-hover-green \'  />
+</section></form>', '<b>Edit</b>')
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(13): App\Controllers\Panel\ManageBrands->gen_edit_form()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 12:15:48 --> Call to undefined function App\Libraries\LoadJavaScript\script_tag()
+in APPPATH\Libraries\LoadJavaScript\LoadJavaScript.php on line 22.
+ 1 APPPATH\Libraries\LoadJavaScript\LoadJavaScript.php(7): App\Libraries\LoadJavaScript\LoadJavaScript->default_javascript([...])
+ 2 APPPATH\Controllers\BaseController.php(86): App\Libraries\LoadJavaScript\LoadJavaScript->load_javascript([...])
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(17): App\Controllers\BaseController->view('Panel\\VManageBrands', 'Manage Brands')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

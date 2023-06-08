@@ -1,0 +1,18 @@
+CRITICAL - 2022-11-29 07:31:32 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Delete product group is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Delete product group is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ProductGroups.php(13): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Delete product group is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index('Delete product group is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 07:36:50 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Delete product group is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Delete product group is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ProductGroups.php(13): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Delete product group is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index('Delete product group is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

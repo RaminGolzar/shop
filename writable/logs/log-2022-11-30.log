@@ -1,0 +1,183 @@
+CRITICAL - 2022-11-30 06:19:29 --> Undefined variable: info
+in APPPATH\Controllers\Process\ProductGroups.php on line 212.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: info', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 212, [...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(203): App\Controllers\Process\ProductGroups->edit_get_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 06:24:06 --> Undefined variable: info
+in APPPATH\Controllers\Process\ProductGroups.php on line 212.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: info', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 212, [...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(203): App\Controllers\Process\ProductGroups->edit_get_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:31:07 --> Undefined index: data
+in APPPATH\Controllers\Process\ProductGroups.php on line 238.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 238, [...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(211): App\Controllers\Process\ProductGroups->update([...])
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:35:47 --> Undefined index: data
+in APPPATH\Controllers\Process\ProductGroups.php on line 228.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 228, [...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(211): App\Controllers\Process\ProductGroups->update([...])
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:33:19 --> Undefined variable: inputs
+in APPPATH\Controllers\Process\ProductGroups.php on line 222.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: inputs', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 222, [])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->edit_data()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:33:39 --> Undefined variable: inputs
+in APPPATH\Controllers\Process\ProductGroups.php on line 222.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: inputs', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 222, [])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->edit_data()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:34:22 --> Undefined variable: inputs
+in APPPATH\Controllers\Process\ProductGroups.php on line 222.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: inputs', 'APPPATH\\Controllers\\Process\\ProductGroups.php', 222, [])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->edit_data()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:59:24 --> Return value of App\Controllers\Process\ProductGroups::edit_message() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 244.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(233): App\Controllers\Process\ProductGroups->edit_message(true, Object(App\Models\MProductGroups))
+ 2 APPPATH\Controllers\Process\ProductGroups.php(229): App\Controllers\Process\ProductGroups->edit_result(true, Object(App\Models\MProductGroups))
+ 3 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->updating([...])
+ 4 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:59:42 --> Return value of App\Controllers\Process\ProductGroups::edit_message() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 244.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(233): App\Controllers\Process\ProductGroups->edit_message(true, Object(App\Models\MProductGroups))
+ 2 APPPATH\Controllers\Process\ProductGroups.php(229): App\Controllers\Process\ProductGroups->edit_result(true, Object(App\Models\MProductGroups))
+ 3 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->updating([...])
+ 4 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:00:02 --> Return value of App\Controllers\Process\ProductGroups::edit_message() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 244.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(233): App\Controllers\Process\ProductGroups->edit_message(true, Object(App\Models\MProductGroups))
+ 2 APPPATH\Controllers\Process\ProductGroups.php(229): App\Controllers\Process\ProductGroups->edit_result(true, Object(App\Models\MProductGroups))
+ 3 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->updating([...])
+ 4 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:01:43 --> Return value of App\Controllers\Process\ProductGroups::edit_message() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 244.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(233): App\Controllers\Process\ProductGroups->edit_message(true, Object(App\Models\MProductGroups))
+ 2 APPPATH\Controllers\Process\ProductGroups.php(229): App\Controllers\Process\ProductGroups->edit_result(true, Object(App\Models\MProductGroups))
+ 3 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->updating([...])
+ 4 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:02:46 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Controllers\Process\ProductGroups.php on line 209.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:03:45 --> Return value of App\Controllers\Process\ProductGroups::edit_message() must be of the type string, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 244.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(233): App\Controllers\Process\ProductGroups->edit_message(true, Object(App\Models\MProductGroups))
+ 2 APPPATH\Controllers\Process\ProductGroups.php(229): App\Controllers\Process\ProductGroups->edit_result(true, Object(App\Models\MProductGroups))
+ 3 APPPATH\Controllers\Process\ProductGroups.php(209): App\Controllers\Process\ProductGroups->updating([...])
+ 4 APPPATH\Controllers\Process\ProductGroups.php(28): App\Controllers\Process\ProductGroups->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('edit')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:34:26 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:35:56 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:36:12 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:36:57 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:37:04 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:37:11 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 10:41:21 --> Return value of App\Controllers\Process\ProductGroups::set_deleted_at_value() must be of the type string or null, none returned
+in APPPATH\Controllers\Process\ProductGroups.php on line 82.
+ 1 APPPATH\Controllers\Process\ProductGroups.php(66): App\Controllers\Process\ProductGroups->set_deleted_at_value([...])
+ 2 APPPATH\Controllers\Process\ProductGroups.php(47): App\Controllers\Process\ProductGroups->prepare_inputs()
+ 3 APPPATH\Controllers\Process\ProductGroups.php(24): App\Controllers\Process\ProductGroups->save()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ProductGroups->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ProductGroups))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

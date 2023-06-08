@@ -1,0 +1,94 @@
+CRITICAL - 2023-03-25 09:17:45 --> Undefined variable: productGroups
+in APPPATH\Views\Templates\Body\Header.php on line 12.
+ 1 APPPATH\Views\Templates\Body\Header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productGroups', 'APPPATH\\Views\\Templates\\Body\\Header.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Body\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Body/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(96): view('Templates/Body/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(77): App\Libraries\LoadView\LoadView->header_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(107): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 09:17:59 --> Undefined variable: productGroup
+in APPPATH\Views\Templates\Body\Header.php on line 12.
+ 1 APPPATH\Views\Templates\Body\Header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productGroup', 'APPPATH\\Views\\Templates\\Body\\Header.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Body\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Body/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(96): view('Templates/Body/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(77): App\Libraries\LoadView\LoadView->header_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(107): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 09:23:32 --> Array to string conversion
+in APPPATH\Views\Templates\Body\Header.php on line 12.
+ 1 APPPATH\Views\Templates\Body\Header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Templates\\Body\\Header.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Templates\\Body\\Header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Body/Header', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(96): view('Templates/Body/Header')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(77): App\Libraries\LoadView\LoadView->header_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 9 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+10 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 09:38:29 --> Return value of App\Controllers\BaseController::prepare_product_groups_items() must be of the type array, string returned
+in APPPATH\Controllers\BaseController.php on line 267.
+ 1 APPPATH\Controllers\BaseController.php(250): App\Controllers\BaseController->prepare_product_groups_items([...])
+ 2 APPPATH\Controllers\BaseController.php(141): App\Controllers\BaseController->set_product_groups()
+ 3 APPPATH\Controllers\BaseController.php(99): App\Controllers\BaseController->header_content()
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:29:40 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Config\Routes.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:30:34 --> Call to undefined method App\Controllers\Panel\ProductsList::initController()
+in SYSTEMPATH\CodeIgniter.php on line 861.
+ 1 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:31:53 --> Too few arguments to function App\Controllers\Panel\ProductsList::index(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Panel\ProductsList.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:32:02 --> Too few arguments to function App\Controllers\Panel\ProductsList::index(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Panel\ProductsList.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:42:33 --> Undefined variable: id
+in APPPATH\Controllers\Panel\ProductsList.php on line 19.
+ 1 APPPATH\Controllers\Panel\ProductsList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Controllers\\Panel\\ProductsList.php', 19, [...])
+ 2 APPPATH\Controllers\Panel\ProductsList.php(11): App\Controllers\Panel\ProductsList->check_exist_id('1')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-25 10:43:31 --> Return value of App\Controllers\Panel\ProductsList::index() must be an object or null, none returned
+in APPPATH\Controllers\Panel\ProductsList.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('2')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

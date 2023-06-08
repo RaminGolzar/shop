@@ -1,0 +1,76 @@
+CRITICAL - 2023-03-11 08:25:45 --> Only variables should be passed by reference
+in APPPATH\Controllers\BaseController.php on line 221.
+ 1 APPPATH\Controllers\BaseController.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\BaseController.php', 221, [...])
+ 2 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 08:27:18 --> Return value of App\Controllers\Panel\OrdersStatus::add_form() must be of the type string, none returned
+in APPPATH\Controllers\Panel\OrdersStatus.php on line 19.
+ 1 APPPATH\Controllers\Panel\BaseManage.php(66): App\Controllers\Panel\OrdersStatus->add_form()
+ 2 APPPATH\Controllers\Panel\BaseManage.php(46): App\Controllers\Panel\BaseManage->gen_add_form()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:55:37 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:09:11 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:14:35 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:14:37 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:14:38 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:14:42 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 2 APPPATH\Controllers\BaseController.php(223): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseManage.php(44): App\Controllers\BaseController->msg('ROOTPATH\\public', '{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index('{&quot;success&quot;:&quot;Saving data operation is successfully&quot;}')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\OrdersStatus))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:21:24 --> Typed property App\Controllers\BaseController::$scripts must be array, string used
+in APPPATH\Controllers\Panel\OrdersStatus.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Panel\OrdersStatus->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

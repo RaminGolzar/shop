@@ -1,0 +1,126 @@
+CRITICAL - 2023-02-28 06:59:53 --> Declaration of App\Database\Seeds\ProductsSeed::run(string $a): void should be compatible with CodeIgniter\Database\Seeder::run()
+in APPPATH\Database\Seeds\ProductsSeed.php on line 26.
+ 1 SYSTEMPATH\Database\Seeder.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Database\\Seeds\\ProductsSeed::run(string $a): void should be compatible with CodeIgniter\\Database\\Seeder::run()', 'APPPATH\\Database\\Seeds\\ProductsSeed.php', 26, [...])
+ 2 SYSTEMPATH\Database\Seeder.php(138): require_once()
+ 3 APPPATH\Controllers\Panel\Products.php(197): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ProductsSeed')
+ 4 APPPATH\Controllers\Panel\Products.php(13): App\Controllers\Panel\Products->fake()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:00:12 --> The specified seeder is not a valid file: E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Database/Seeds/ProductsSeed/aa.php
+in SYSTEMPATH\Database\Seeder.php on line 130.
+ 1 APPPATH\Controllers\Panel\Products.php(197): CodeIgniter\Database\Seeder->call('ProductsSeed/aa')
+ 2 APPPATH\Controllers\Panel\Products.php(13): App\Controllers\Panel\Products->fake()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:00:22 --> The specified seeder is not a valid file: E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Database/Seeds/ProductsSeed::aa.php
+in SYSTEMPATH\Database\Seeder.php on line 130.
+ 1 APPPATH\Controllers\Panel\Products.php(197): CodeIgniter\Database\Seeder->call('ProductsSeed::aa')
+ 2 APPPATH\Controllers\Panel\Products.php(13): App\Controllers\Panel\Products->fake()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 07:00:32 --> Declaration of App\Database\Seeds\ProductsSeed::run(string $a): void should be compatible with CodeIgniter\Database\Seeder::run()
+in APPPATH\Database\Seeds\ProductsSeed.php on line 26.
+ 1 SYSTEMPATH\Database\Seeder.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Database\\Seeds\\ProductsSeed::run(string $a): void should be compatible with CodeIgniter\\Database\\Seeder::run()', 'APPPATH\\Database\\Seeds\\ProductsSeed.php', 26, [...])
+ 2 SYSTEMPATH\Database\Seeder.php(138): require_once()
+ 3 APPPATH\Controllers\Panel\Products.php(197): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ProductsSeed', 'aaa')
+ 4 APPPATH\Controllers\Panel\Products.php(13): App\Controllers\Panel\Products->fake()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:13:33 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\Products.php on line 184.
+ 1 APPPATH\Controllers\Process\Products.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\Products.php', 184, [...])
+ 2 APPPATH\Controllers\Process\Products.php(171): App\Controllers\Process\Products->get_inputs()
+ 3 APPPATH\Controllers\Process\Products.php(24): App\Controllers\Process\Products->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:15:12 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\Products.php on line 184.
+ 1 APPPATH\Controllers\Process\Products.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\Products.php', 184, [...])
+ 2 APPPATH\Controllers\Process\Products.php(171): App\Controllers\Process\Products->get_inputs()
+ 3 APPPATH\Controllers\Process\Products.php(24): App\Controllers\Process\Products->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:15:32 --> Undefined index: deleted_at
+in APPPATH\Controllers\Process\Products.php on line 184.
+ 1 APPPATH\Controllers\Process\Products.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Process\\Products.php', 184, [...])
+ 2 APPPATH\Controllers\Process\Products.php(171): App\Controllers\Process\Products->get_inputs()
+ 3 APPPATH\Controllers\Process\Products.php(24): App\Controllers\Process\Products->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:46:41 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:50:16 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:50:22 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:50:33 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:51:19 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:51:26 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:53:39 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Edit product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Edit product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Edit product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Edit product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

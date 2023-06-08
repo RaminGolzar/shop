@@ -1,0 +1,39 @@
+CRITICAL - 2023-03-26 09:10:55 --> Undefined offset: 1
+in APPPATH\Libraries\Elements\Elements.php on line 1207.
+ 1 APPPATH\Libraries\Elements\Elements.php(1207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Libraries\\Elements\\Elements.php', 1207, [...])
+ 2 APPPATH\Libraries\Elements\Elements.php(1164): App\Libraries\Elements\Elements->poem_two_array([...], [...])
+ 3 APPPATH\Controllers\Panel\ProductsList.php(74): App\Libraries\Elements\Elements->poem([...], [...])
+ 4 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->prepare_html([...])
+ 5 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 09:29:20 --> Call to undefined method App\Libraries\Elements\Elements::big()
+in APPPATH\Controllers\Panel\ProductsList.php on line 81.
+ 1 APPPATH\Controllers\Panel\ProductsList.php(74): App\Controllers\Panel\ProductsList->gpn([...])
+ 2 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->prepare_html([...])
+ 3 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 09:32:29 --> Undefined index: description::2
+in APPPATH\Controllers\Panel\ProductsList.php on line 83.
+ 1 APPPATH\Controllers\Panel\ProductsList.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: description::2', 'APPPATH\\Controllers\\Panel\\ProductsList.php', 83, [...])
+ 2 APPPATH\Controllers\Panel\ProductsList.php(74): App\Controllers\Panel\ProductsList->gpn([...])
+ 3 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->prepare_html([...])
+ 4 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 09:33:20 --> Argument 1 passed to App\Libraries\Elements\Elements::poem() must be of the type array, string given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Panel\ProductsList.php on line 74
+in APPPATH\Libraries\Elements\Elements.php on line 1162.
+ 1 APPPATH\Controllers\Panel\ProductsList.php(74): App\Libraries\Elements\Elements->poem('<big>product 2727</big><p class="w3-small  " >Lorem ipsum nec, purus libero. do leo. scelerisque ut et.</p>', [...])
+ 2 APPPATH\Controllers\Panel\ProductsList.php(47): App\Controllers\Panel\ProductsList->prepare_html([...])
+ 3 APPPATH\Controllers\Panel\ProductsList.php(16): App\Controllers\Panel\ProductsList->init_product_list('1')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

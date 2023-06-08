@@ -1,0 +1,144 @@
+CRITICAL - 2022-11-12 07:07:05 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 39.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(23): App\Libraries\ShowErrors\ShowErrors->convert_error('EditBrand')
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(39): App\Libraries\ShowErrors\ShowErrors->__invoke('EditBrand', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(9): App\Controllers\Panel\ManageBrands->show_errors('EditBrand')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('EditBrand')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 07:32:58 --> Too few arguments to function App\Controllers\Process\ManageBrands::edit_brand(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Process\ManageBrands.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:10:30 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:10:42 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:10:43 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:10:43 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:11:33 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:13:31 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:14:32 --> Undefined offset: 0
+in SYSTEMPATH\HTTP\Negotiate.php on line 160.
+ 1 SYSTEMPATH\HTTP\Negotiate.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'SYSTEMPATH\\HTTP\\Negotiate.php', 160, [...])
+ 2 SYSTEMPATH\HTTP\Negotiate.php(69): CodeIgniter\HTTP\Negotiate->getBestMatch([...], '*/*', true, false)
+ 3 SYSTEMPATH\HTTP\IncomingRequest.php(330): CodeIgniter\HTTP\Negotiate->media([...], false)
+ 4 APPPATH\Controllers\Process\ManageBrands.php(79): CodeIgniter\HTTP\IncomingRequest->negotiate('media', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:26:19 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 86, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 08:29:16 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 87.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 09:23:25 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 88.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 10:07:01 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 88.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 10:08:46 --> application/json is not a valid negotiation type. Must be one of: media, charset, encoding, language.
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 342.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(342): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidNegotiationType('application/json')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(77): CodeIgniter\HTTP\IncomingRequest->negotiate('application/json', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 10:09:01 --> json is not a valid negotiation type. Must be one of: media, charset, encoding, language.
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 342.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(342): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidNegotiationType('json')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(77): CodeIgniter\HTTP\IncomingRequest->negotiate('json', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 10:09:24 --> applicationjson is not a valid negotiation type. Must be one of: media, charset, encoding, language.
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 342.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(342): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidNegotiationType('applicationjson')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(77): CodeIgniter\HTTP\IncomingRequest->negotiate('applicationjson', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 10:28:30 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 88.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

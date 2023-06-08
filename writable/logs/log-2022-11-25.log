@@ -1,0 +1,104 @@
+CRITICAL - 2022-11-25 06:12:42 --> Constructor App\Libraries\Profile\Profile::__construct() cannot declare a return type
+in APPPATH\Libraries\Profile\Profile.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-25 06:13:34 --> Constructor App\Libraries\Profile\Handlers\GetRoles::__construct() cannot declare a return type
+in APPPATH\Libraries\Profile\Handlers\GetRoles.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-25 06:13:56 --> Constructor App\Libraries\Profile\Handlers\SelectBox::__construct() cannot declare a return type
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-25 06:14:18 --> Argument 2 passed to App\Libraries\Profile\Handlers\SelectBox::__construct() must be of the type array, object given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\Profile\Profile.php on line 9
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 6.
+ 1 APPPATH\Libraries\Profile\Profile.php(9): App\Libraries\Profile\Handlers\SelectBox->__construct('prof', Object(App\Libraries\Profile\Handlers\GetRoles), '200')
+ 2 APPPATH\Controllers\Home.php(8): App\Libraries\Profile\Profile->__construct('prof')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 06:31:05 --> Object of class App\Libraries\Profile\Profile could not be converted to string
+in APPPATH\Views\VHome.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VHome', [], true)
+ 4 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VHome')
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 6 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 7 APPPATH\Controllers\BaseController.php(114): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+ 8 APPPATH\Controllers\Home.php(10): App\Controllers\BaseController->view('VHome', 'Home')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 06:33:18 --> Object of class App\Libraries\Profile\Profile could not be converted to string
+in APPPATH\Views\VHome.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VHome', [], true)
+ 4 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VHome')
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 6 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 7 APPPATH\Controllers\BaseController.php(114): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+ 8 APPPATH\Controllers\Home.php(10): App\Controllers\BaseController->view('VHome', 'Home')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 06:34:29 --> Return value of App\Libraries\Profile\Handlers\SelectBox::generate() must be of the type array, string returned
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 9.
+ 1 APPPATH\Libraries\Profile\Profile.php(11): App\Libraries\Profile\Handlers\SelectBox->generate('aa', [...], '200')
+ 2 APPPATH\Controllers\Home.php(10): App\Libraries\Profile\Profile->init('aa')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 07:23:22 --> Array to string conversion
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 16.
+ 1 APPPATH\Libraries\Profile\Handlers\SelectBox.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\Profile\\Handlers\\SelectBox.php', 16, [...])
+ 2 APPPATH\Libraries\Profile\Handlers\SelectBox.php(7): App\Libraries\Profile\Handlers\SelectBox->items([...])
+ 3 APPPATH\Libraries\Profile\Profile.php(11): App\Libraries\Profile\Handlers\SelectBox->generate('aa', [...], '200')
+ 4 APPPATH\Controllers\Home.php(10): App\Libraries\Profile\Profile->init('aa')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 07:24:42 --> Array to string conversion
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 16.
+ 1 APPPATH\Libraries\Profile\Handlers\SelectBox.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\Profile\\Handlers\\SelectBox.php', 16, [...])
+ 2 APPPATH\Libraries\Profile\Handlers\SelectBox.php(7): App\Libraries\Profile\Handlers\SelectBox->items([...])
+ 3 APPPATH\Libraries\Profile\Profile.php(11): App\Libraries\Profile\Handlers\SelectBox->generate('aa', [...], '200')
+ 4 APPPATH\Controllers\Home.php(10): App\Libraries\Profile\Profile->init('aa')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 07:35:31 --> Too few arguments to function App\Controllers\Panel\BaseController::errors(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Panel\ProductGroups.php on line 13 and exactly 2 expected
+in APPPATH\Controllers\Panel\BaseController.php on line 173.
+ 1 APPPATH\Controllers\Panel\ProductGroups.php(13): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductGroups->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductGroups))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 09:18:58 --> Typed property App\Libraries\Profile\Handlers\SelectBox::$width must not be accessed before initialization
+in APPPATH\Libraries\Profile\Handlers\SelectBox.php on line 52.
+ 1 APPPATH\Libraries\Profile\Handlers\SelectBox.php(19): App\Libraries\Profile\Handlers\SelectBox->prepare_width()
+ 2 APPPATH\Libraries\Profile\Profile.php(9): App\Libraries\Profile\Handlers\SelectBox->__construct('Your Profile', 'profile-title', 'profile-item', '200')
+ 3 APPPATH\Controllers\Home.php(10): App\Libraries\Profile\Profile->generate('Your Profile', 'profile-title', 'profile-item')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 10:43:49 --> Undefined variable: profile
+in APPPATH\Views\VHome.php on line 6.
+ 1 APPPATH\Views\VHome.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: profile', 'APPPATH\\Views\\VHome.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VHome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('VHome', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('VHome')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 8 APPPATH\Controllers\BaseController.php(115): App\Libraries\LoadView\LoadView->show('VHome', 'Home')
+ 9 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

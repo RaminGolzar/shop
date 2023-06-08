@@ -1,0 +1,115 @@
+CRITICAL - 2023-04-25 08:27:15 --> Typed property App\Controllers\Process\BaseProcess::$model must not be accessed before initialization
+in APPPATH\Controllers\Process\BaseProcess.php on line 179.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(60): App\Controllers\Process\BaseProcess->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('delete', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:36:26 --> Undefined offset: 0
+in APPPATH\Controllers\Edit\BaseEdit.php on line 181.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 181, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:38:25 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 237.
+ 1 APPPATH\Controllers\BaseController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 237, [...])
+ 2 APPPATH\Controllers\BaseController.php(210): App\Controllers\BaseController->profile(Object(App\Libraries\KingAuth\KingAuth))
+ 3 APPPATH\Controllers\BaseController.php(191): App\Controllers\BaseController->with_auth()
+ 4 APPPATH\Controllers\BaseController.php(177): App\Controllers\BaseController->top_nav_items()
+ 5 APPPATH\Controllers\BaseController.php(135): App\Controllers\BaseController->gen_nav()
+ 6 APPPATH\Controllers\BaseController.php(99): App\Controllers\BaseController->header_content()
+ 7 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 08:39:15 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 237.
+ 1 APPPATH\Controllers\BaseController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 237, [...])
+ 2 APPPATH\Controllers\BaseController.php(210): App\Controllers\BaseController->profile(Object(App\Libraries\KingAuth\KingAuth))
+ 3 APPPATH\Controllers\BaseController.php(191): App\Controllers\BaseController->with_auth()
+ 4 APPPATH\Controllers\BaseController.php(177): App\Controllers\BaseController->top_nav_items()
+ 5 APPPATH\Controllers\BaseController.php(135): App\Controllers\BaseController->gen_nav()
+ 6 APPPATH\Controllers\BaseController.php(99): App\Controllers\BaseController->header_content()
+ 7 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 09:10:18 --> Undefined offset: 0
+in APPPATH\Controllers\Edit\BaseEdit.php on line 181.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 181, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 09:11:15 --> Undefined offset: 0
+in APPPATH\Controllers\Edit\BaseEdit.php on line 181.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 181, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 09:12:11 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 237.
+ 1 APPPATH\Controllers\BaseController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 237, [...])
+ 2 APPPATH\Controllers\BaseController.php(210): App\Controllers\BaseController->profile(Object(App\Libraries\KingAuth\KingAuth))
+ 3 APPPATH\Controllers\BaseController.php(191): App\Controllers\BaseController->with_auth()
+ 4 APPPATH\Controllers\BaseController.php(177): App\Controllers\BaseController->top_nav_items()
+ 5 APPPATH\Controllers\BaseController.php(135): App\Controllers\BaseController->gen_nav()
+ 6 APPPATH\Controllers\BaseController.php(99): App\Controllers\BaseController->header_content()
+ 7 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 09:12:24 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 237.
+ 1 APPPATH\Controllers\BaseController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 237, [...])
+ 2 APPPATH\Controllers\BaseController.php(210): App\Controllers\BaseController->profile(Object(App\Libraries\KingAuth\KingAuth))
+ 3 APPPATH\Controllers\BaseController.php(191): App\Controllers\BaseController->with_auth()
+ 4 APPPATH\Controllers\BaseController.php(177): App\Controllers\BaseController->top_nav_items()
+ 5 APPPATH\Controllers\BaseController.php(135): App\Controllers\BaseController->gen_nav()
+ 6 APPPATH\Controllers\BaseController.php(99): App\Controllers\BaseController->header_content()
+ 7 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->view('VHome', 'Home')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 09:16:38 --> Undefined offset: 0
+in APPPATH\Controllers\Edit\BaseEdit.php on line 181.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 181, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:45:41 --> Argument 4 passed to App\Libraries\Form\Form::dropdown() must be of the type array, string given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Panel\EditProduct.php on line 67
+in APPPATH\Libraries\Form\Form.php on line 318.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(67): App\Libraries\Form\Form->dropdown('currency_id', 'Currency', [...], '2')
+ 2 APPPATH\Controllers\Panel\EditProduct.php(49): App\Controllers\Panel\EditProduct->add_product_form('102')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(14): App\Controllers\Panel\EditProduct->edit_product('102')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('102')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 11:40:44 --> Array to string conversion
+in APPPATH\Views\Panel\VProductInfo.php on line 21.
+ 1 APPPATH\Views\Panel\VProductInfo.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Panel\\VProductInfo.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VProductInfo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VProductInfo', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VProductInfo')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VProductInfo')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VProductInfo', 'Title')
+ 8 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VProductInfo', 'Title')
+ 9 APPPATH\Controllers\Panel\ProductInfo.php(17): App\Controllers\BaseController->view('Panel/VProductInfo')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('102')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,248 @@
+CRITICAL - 2023-03-27 08:21:16 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Panel/ProductInfo::index/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Panel/ProductInfo::index/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ProductInfo/4')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('ProductInfo/4')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 08:54:29 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Panel/ProductInfo::index/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Panel/ProductInfo::index/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ProductInfo/4')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('ProductInfo/4')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 08:54:34 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Panel/ProductInfo::index/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Panel/ProductInfo::index/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('ProductInfo/4')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('ProductInfo/4')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:44:53 --> Table 'shop.product_group' doesn't exist
+CRITICAL - 2023-03-27 09:44:53 --> Table 'shop.product_group' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_group` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_group` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_group` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_group` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(41): CodeIgniter\BaseModel->find('6')
+ 8 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:46:09 --> Unknown column 'product.name' in 'field list'
+CRITICAL - 2023-03-27 09:46:09 --> Unknown column 'product.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(41): CodeIgniter\BaseModel->find('6')
+ 8 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:46:13 --> Unknown column 'product.name' in 'field list'
+CRITICAL - 2023-03-27 09:46:13 --> Unknown column 'product.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `product`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_group`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(41): CodeIgniter\BaseModel->find('6')
+ 8 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:47:03 --> Unknown column 'product_group.id' in 'on clause'
+CRITICAL - 2023-03-27 09:47:03 --> Unknown column 'product_group.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(41): CodeIgniter\BaseModel->find('6')
+ 8 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:47:14 --> Unknown column 'product_group.id' in 'on clause'
+CRITICAL - 2023-03-27 09:47:14 --> Unknown column 'product_group.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_group`.`id`
+WHERE `products`.`id` = :products.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(41): CodeIgniter\BaseModel->find('6')
+ 8 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 09:54:33 --> Undefined variable: db
+in APPPATH\Models\MProducts.php on line 35.
+ 1 APPPATH\Models\MProducts.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\MProducts.php', 35, [...])
+ 2 APPPATH\Controllers\Panel\ProductInfo.php(41): App\Models\MProducts->get_product_info('6')
+ 3 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:54:59 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2023-03-27 09:54:59 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductInfo.php(41): App\Models\MProducts->get_product_info('6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 09:55:17 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2023-03-27 09:55:17 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = \'6\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`name` as `product_name`, `description`, `price`, `brands`.`name` as `brand_name`, `product_groups`.`name` as `product_group_name`
+FROM `products`
+JOIN `brands` ON `products`.`brand_id` = `brands`.`id`
+JOIN `product_groups` ON `products`.`product_group_id` = `product_groups`.`id`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\MProducts.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Panel\ProductInfo.php(41): App\Models\MProducts->get_product_info('6')
+ 7 APPPATH\Controllers\Panel\ProductInfo.php(18): App\Controllers\Panel\ProductInfo->get_product_info('6')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductInfo->index('6')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductInfo))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

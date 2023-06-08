@@ -1,0 +1,279 @@
+ERROR - 2023-03-22 07:11:32 --> Unknown column 'username' in 'field list'
+CRITICAL - 2023-03-22 07:11:32 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `customers` (`username`, `email`, `password`) VALUES (\'aa\', \'aa@aa.aa\', \'1111\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `customers` (`username`, `email`, `password`) VALUES (\'aa\', \'aa@aa.aa\', \'1111\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `customers` (`username`, `email`, `password`) VALUES (\'aa\', \'aa@aa.aa\', \'1111\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `customers` (`username`, `email`, `password`) VALUES (:username:, :email:, :password:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Libraries\KingAuth\Handlers\Register.php(55): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Libraries\KingAuth\Handlers\Register.php(47): App\Libraries\KingAuth\Handlers\Register->save()
+10 APPPATH\Libraries\KingAuth\KingAuth.php(287): App\Libraries\KingAuth\Handlers\Register->register('MCustomers', [...], 'password')
+11 APPPATH\Controllers\Register.php(56): App\Libraries\KingAuth\KingAuth->register_user('MCustomers', [...], 'password')
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Register->register_user()
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 07:38:07 --> Unknown column 'username' in 'field list'
+CRITICAL - 2023-03-22 07:38:07 --> Unknown column 'username' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `username`
+FROM `customers`
+WHERE `email` = \'user2@email.ir\'
+AND `password` = \'$2y$10$1OSh0VVI1//vOfZ6oWg0WOiBPwO2435I3I0UMVwRrV2ydQ1J7Tqhu\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `username`
+FROM `customers`
+WHERE `email` = \'user2@email.ir\'
+AND `password` = \'$2y$10$1OSh0VVI1//vOfZ6oWg0WOiBPwO2435I3I0UMVwRrV2ydQ1J7Tqhu\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `username`
+FROM `customers`
+WHERE `email` = \'user2@email.ir\'
+AND `password` = \'$2y$10$1OSh0VVI1//vOfZ6oWg0WOiBPwO2435I3I0UMVwRrV2ydQ1J7Tqhu\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `username`
+FROM `customers`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Libraries\KingAuth\Handlers\GetUser.php(44): CodeIgniter\BaseModel->find()
+ 8 APPPATH\Libraries\KingAuth\KingAuth.php(254): App\Libraries\KingAuth\Handlers\GetUser->get('MCustomers', [...], 'username')
+ 9 APPPATH\Controllers\BaseController.php(205): App\Libraries\KingAuth\KingAuth->get_user('MCustomers', null, 'username')
+10 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+11 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+12 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+13 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+14 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+16 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:46:36 --> Argument 1 passed to App\Libraries\Profile\Profile::generate() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\BaseController.php on line 207
+in APPPATH\Libraries\Profile\Profile.php on line 15.
+ 1 APPPATH\Controllers\BaseController.php(207): App\Libraries\Profile\Profile->generate(null, 'profile-title', 'profile-item')
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 07:47:55 --> Argument 1 passed to App\Libraries\Profile\Profile::generate() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\BaseController.php on line 207
+in APPPATH\Libraries\Profile\Profile.php on line 15.
+ 1 APPPATH\Controllers\BaseController.php(207): App\Libraries\Profile\Profile->generate(null, 'profile-title', 'profile-item')
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:11:17 --> Argument 3 passed to App\Libraries\Form\Form::text() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Edit\EditProfile.php on line 35
+in APPPATH\Libraries\Form\Form.php on line 96.
+ 1 APPPATH\Controllers\Edit\EditProfile.php(35): App\Libraries\Form\Form->text('tel', 'Tel', null)
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:14:17 --> Key element cannot be a reference
+in APPPATH\Controllers\Edit\EditProfile.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-03-22 09:36:30 --> Unknown column 'AA' in 'field list'
+CRITICAL - 2023-03-22 09:36:30 --> Unknown column 'AA' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, `tel`, ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, `tel`, ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, `tel`, ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, `tel`, ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = :customers.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Edit\BaseEdit.php(156): CodeIgniter\BaseModel->find('5')
+ 8 APPPATH\Controllers\Edit\BaseEdit.php(133): App\Controllers\Edit\BaseEdit->find_row('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,tel,ifnull(mobile,AA)')
+ 9 APPPATH\Controllers\Edit\EditProfile.php(27): App\Controllers\Edit\BaseEdit->get_form_data('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,tel,ifnull(mobile,AA)')
+10 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+11 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 09:37:00 --> Unknown column 'aa' in 'field list'
+CRITICAL - 2023-03-22 09:37:00 --> Unknown column 'aa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, aa), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, aa), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, aa), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, aa), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = :customers.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Edit\BaseEdit.php(156): CodeIgniter\BaseModel->find('5')
+ 8 APPPATH\Controllers\Edit\BaseEdit.php(133): App\Controllers\Edit\BaseEdit->find_row('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,ifnull(tel,aa),ifnull(mobile,AA)')
+ 9 APPPATH\Controllers\Edit\EditProfile.php(27): App\Controllers\Edit\BaseEdit->get_form_data('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,ifnull(tel,aa),ifnull(mobile,AA)')
+10 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+11 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 09:37:43 --> Unknown column 'AA' in 'field list'
+CRITICAL - 2023-03-22 09:37:43 --> Unknown column 'AA' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, "aa"), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, "aa"), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, "aa"), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, ifnull(tel, "aa"), ifnull(mobile, AA)
+FROM `customers`
+WHERE `customers`.`id` = :customers.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Edit\BaseEdit.php(156): CodeIgniter\BaseModel->find('5')
+ 8 APPPATH\Controllers\Edit\BaseEdit.php(133): App\Controllers\Edit\BaseEdit->find_row('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,ifnull(tel,"aa"),ifnull(mobile,AA)')
+ 9 APPPATH\Controllers\Edit\EditProfile.php(27): App\Controllers\Edit\BaseEdit->get_form_data('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,ifnull(tel,"aa"),ifnull(mobile,AA)')
+10 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+11 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:37:54 --> Undefined index: tel
+in APPPATH\Controllers\Edit\EditProfile.php on line 41.
+ 1 APPPATH\Controllers\Edit\EditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tel', 'APPPATH\\Controllers\\Edit\\EditProfile.php', 41, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:38:19 --> Undefined index: tel
+in APPPATH\Controllers\Edit\EditProfile.php on line 41.
+ 1 APPPATH\Controllers\Edit\EditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tel', 'APPPATH\\Controllers\\Edit\\EditProfile.php', 41, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:51:26 --> Undefined index: tel
+in APPPATH\Controllers\Edit\EditProfile.php on line 42.
+ 1 APPPATH\Controllers\Edit\EditProfile.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tel', 'APPPATH\\Controllers\\Edit\\EditProfile.php', 42, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 09:52:04 --> Undefined index: tel
+in APPPATH\Controllers\Edit\EditProfile.php on line 42.
+ 1 APPPATH\Controllers\Edit\EditProfile.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tel', 'APPPATH\\Controllers\\Edit\\EditProfile.php', 42, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-22 09:54:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`i...' at line 1
+CRITICAL - 2023-03-22 09:54:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`i...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, IFNULL(tel, ---) as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, IFNULL(tel, ---) as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, IFNULL(tel, ---) as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `first_name`, `last_name`, `user_name`, `email`, `address`, `postal_code`, `province_id`, `city_id`, IFNULL(tel, ---) as tel, IFNULL(mobile, ---) as mobile
+FROM `customers`
+WHERE `customers`.`id` = :customers.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH\Controllers\Edit\BaseEdit.php(156): CodeIgniter\BaseModel->find('5')
+ 8 APPPATH\Controllers\Edit\BaseEdit.php(133): App\Controllers\Edit\BaseEdit->find_row('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,IFNULL(tel,---) as tel,IFNULL(mobile,---) as mobile')
+ 9 APPPATH\Controllers\Edit\EditProfile.php(27): App\Controllers\Edit\BaseEdit->get_form_data('id,first_name,last_name,user_name,email,address,postal_code,province_id,city_id,IFNULL(tel,---) as tel,IFNULL(mobile,---) as mobile')
+10 APPPATH\Controllers\Edit\BaseEdit.php(107): App\Controllers\Edit\EditProfile->edit_form()
+11 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\Edit\BaseEdit->gen_edit_form()
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('5')
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 10:09:04 --> Argument 1 passed to App\Libraries\Profile\Profile::generate() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\BaseController.php on line 207
+in APPPATH\Libraries\Profile\Profile.php on line 15.
+ 1 APPPATH\Controllers\BaseController.php(207): App\Libraries\Profile\Profile->generate(null, 'profile-title', 'profile-item')
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 10:26:34 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 10:41:31 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-22 10:41:43 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

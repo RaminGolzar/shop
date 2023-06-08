@@ -1,0 +1,70 @@
+CRITICAL - 2022-12-11 08:34:02 --> Call to undefined method App\Libraries\TEFakeContent\Handlers\GenContent::between_char()
+in APPPATH\Libraries\TEFakeContent\Handlers\GenContent.php on line 90.
+ 1 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\Handlers\GenContent->rand_between_lower_char('a', 'c')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:35:20 --> Cannot pass parameter 1 by reference
+in APPPATH\Libraries\TEFakeContent\Handlers\GenContent.php on line 94.
+ 1 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\Handlers\GenContent->rand_between_lower_char('a', 'c')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:40:16 --> Call to undefined function App\Controllers\random_string()
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:40:21 --> Call to undefined function App\Controllers\random_string()
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 08:40:59 --> Call to undefined function App\Controllers\random_string()
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:28:42 --> Undefined property: App\Libraries\TEFakeContent\GenContent\Random::$char
+in APPPATH\Libraries\TEFakeContent\GenContent\Random.php on line 71.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\TEFakeContent\\GenContent\\Random::$char', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\Random.php', 71, [...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(58): App\Libraries\TEFakeContent\GenContent\Random->shuffle('$')
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(24): App\Libraries\TEFakeContent\GenContent\Random->rand_char('$', 1)
+ 4 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(20): App\Libraries\TEFakeContent\GenContent\Random->upper_alpha(1)
+ 5 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->rand_upper_char(1)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 09:29:40 --> Undefined property: App\Libraries\TEFakeContent\GenContent\Random::$char
+in APPPATH\Libraries\TEFakeContent\GenContent\Random.php on line 71.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\TEFakeContent\\GenContent\\Random::$char', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\Random.php', 71, [...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(58): App\Libraries\TEFakeContent\GenContent\Random->shuffle('$')
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\Random.php(24): App\Libraries\TEFakeContent\GenContent\Random->rand_char('$', 1)
+ 4 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(20): App\Libraries\TEFakeContent\GenContent\Random->upper_alpha(1)
+ 5 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->rand_upper_char(1)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 10:48:48 --> Only variables should be passed by reference
+in APPPATH\Libraries\TEFakeContent\GenContent\Between.php on line 15.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\Between.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\Between.php', 15, [...])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(74): App\Libraries\TEFakeContent\GenContent\Between->lower_alpha('A', 'H')
+ 3 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->between_lower_alpha('A', 'H')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-11 10:56:08 --> Call to protected method App\Libraries\TEFakeContent\GenContent\Between::upper_alpha() from context 'App\Libraries\TEFakeContent\GenContent\GenContent'
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 87.
+ 1 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->between_upper_alpha('G', 'o')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

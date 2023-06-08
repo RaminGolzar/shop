@@ -1,0 +1,283 @@
+CRITICAL - 2023-03-21 07:10:06 --> Undefined index: username
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: username', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Panel\BaseManage.php(53): App\Controllers\BaseController->view('Panel/VCurrency', 'Currency')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\BaseManage->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Currency))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:23:05 --> Return value of App\Controllers\Edit\BaseEdit::get_user_id() must be of the type string, array returned
+in APPPATH\Controllers\Edit\BaseEdit.php on line 172.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:24:10 --> Only variables should be passed by reference
+in APPPATH\Controllers\Edit\BaseEdit.php on line 172.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 172, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:25:37 --> Return value of App\Controllers\Edit\BaseEdit::get_user_id() must be of the type string, array returned
+in APPPATH\Controllers\Edit\BaseEdit.php on line 174.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:48:39 --> Call to undefined method App\Controllers\Process\EditProfile::initController()
+in SYSTEMPATH\CodeIgniter.php on line 861.
+ 1 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:50:03 --> Undefined offset: 1111
+in APPPATH\Libraries\KingAuth\Handlers\EditProfile.php on line 64.
+ 1 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1111', 'APPPATH\\Libraries\\KingAuth\\Handlers\\EditProfile.php', 64, [...])
+ 2 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(39): App\Libraries\KingAuth\Handlers\EditProfile->set_property([...], '1111', '2222', '2222')
+ 3 APPPATH\Libraries\KingAuth\KingAuth.php(385): App\Libraries\KingAuth\Handlers\EditProfile->edit([...], '1111', '2222', '2222')
+ 4 APPPATH\Controllers\Process\EditProfile.php(19): App\Libraries\KingAuth\KingAuth->edit_profile([...], '1111', '2222', '2222')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\EditProfile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 09:50:25 --> Undefined index: 
+in APPPATH\Libraries\KingAuth\Handlers\EditProfile.php on line 64.
+ 1 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Libraries\\KingAuth\\Handlers\\EditProfile.php', 64, [...])
+ 2 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(39): App\Libraries\KingAuth\Handlers\EditProfile->set_property([...], 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 3 APPPATH\Libraries\KingAuth\KingAuth.php(385): App\Libraries\KingAuth\Handlers\EditProfile->edit([...], 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 4 APPPATH\Controllers\Process\EditProfile.php(19): App\Libraries\KingAuth\KingAuth->edit_profile([...], 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\EditProfile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 10:51:17 --> Argument 1 passed to App\Controllers\Process\BaseProcess::message() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\BaseProcess.php on line 247
+in APPPATH\Controllers\Process\BaseProcess.php on line 215.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(247): App\Controllers\Process\BaseProcess->message([...])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(62): App\Controllers\Process\BaseProcess->edit_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('editprofile')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 10:53:47 --> Argument 1 passed to App\Controllers\Process\BaseProcess::message() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\BaseProcess.php on line 247
+in APPPATH\Controllers\Process\BaseProcess.php on line 215.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(247): App\Controllers\Process\BaseProcess->message([...])
+ 2 APPPATH\Controllers\Process\BaseProcess.php(62): App\Controllers\Process\BaseProcess->edit_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('editprofile')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:03:39 --> Undefined variable: msg
+in APPPATH\Views\Edit\VEditProfile.php on line 3.
+ 1 APPPATH\Views\Edit\VEditProfile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: msg', 'APPPATH\\Views\\Edit\\VEditProfile.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit\\VEditProfile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit/VEditProfile', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(79): view('Edit/VEditProfile')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(31): App\Libraries\LoadView\LoadView->body_view('Edit/VEditProfile')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(25): App\Libraries\LoadView\LoadView->render_view('Edit/VEditProfile', 'Edit Profile Info')
+ 8 APPPATH\Controllers\BaseController.php(104): App\Libraries\LoadView\LoadView->show('Edit/VEditProfile', 'Edit Profile Info')
+ 9 APPPATH\Controllers\Edit\BaseEdit.php(80): App\Controllers\BaseController->view('Edit/VEditProfile', 'Edit Profile Info')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:05:55 --> Argument 2 passed to App\Controllers\BaseController::msg() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Edit\BaseEdit.php on line 76
+in APPPATH\Controllers\BaseController.php on line 224.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(76): App\Controllers\BaseController->msg('ROOTPATH\\public', null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:30:34 --> Too few arguments to function App\Controllers\Process\BaseProcess::redirect(), 0 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\BaseProcess.php on line 247 and exactly 1 expected
+in APPPATH\Controllers\Process\BaseProcess.php on line 231.
+ 1 APPPATH\Controllers\Process\BaseProcess.php(247): App\Controllers\Process\BaseProcess->redirect()
+ 2 APPPATH\Controllers\Process\BaseProcess.php(62): App\Controllers\Process\BaseProcess->edit_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('editprofile')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:38:18 --> Undefined offset: 0
+in APPPATH\Controllers\Edit\BaseEdit.php on line 181.
+ 1 APPPATH\Controllers\Edit\BaseEdit.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Edit\\BaseEdit.php', 181, [...])
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->get_user_id()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('get_user')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\EditProfile))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:38:28 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:38:39 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:38:53 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:40:25 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-21 11:40:43 --> Undefined offset: 0
+in APPPATH\Controllers\BaseController.php on line 207.
+ 1 APPPATH\Controllers\BaseController.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\BaseController.php', 207, [...])
+ 2 APPPATH\Controllers\BaseController.php(181): App\Controllers\BaseController->profile()
+ 3 APPPATH\Controllers\BaseController.php(169): App\Controllers\BaseController->top_nav_items()
+ 4 APPPATH\Controllers\BaseController.php(134): App\Controllers\BaseController->gen_nav()
+ 5 APPPATH\Controllers\BaseController.php(98): App\Controllers\BaseController->header_content()
+ 6 APPPATH\Controllers\SignIn.php(19): App\Controllers\BaseController->view('VSignIn', 'Sign In')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SignIn->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignIn))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-21 11:44:09 --> Unknown column 'confirm_password' in 'where clause'
+CRITICAL - 2023-03-21 11:44:09 --> Unknown column 'confirm_password' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `password`
+FROM `user`
+WHERE `id` = \'1\'
+AND `username` = \'user_50\'
+AND `email` = \'user_50@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `password`
+FROM `user`
+WHERE `id` = \'1\'
+AND `username` = \'user_50\'
+AND `email` = \'user_50@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `password`
+FROM `user`
+WHERE `id` = \'1\'
+AND `username` = \'user_50\'
+AND `email` = \'user_50@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `password`
+FROM `user`
+WHERE `id` = :id:
+AND `username` = :username:
+AND `email` = :email:
+AND `password` = :password:
+AND `confirm_password` = :confirm_password:
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(252): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(138): App\Libraries\KingAuth\Handlers\EditProfile->hashing_pass()
+ 9 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(45): App\Libraries\KingAuth\Handlers\EditProfile->update_info()
+10 APPPATH\Libraries\KingAuth\KingAuth.php(385): App\Libraries\KingAuth\Handlers\EditProfile->edit([...], 'current_password', 'password', 'confirm_password')
+11 APPPATH\Controllers\Process\BaseProcess.php(245): App\Libraries\KingAuth\KingAuth->edit_profile([...], 'current_password', 'password', 'confirm_password')
+12 APPPATH\Controllers\Process\BaseProcess.php(62): App\Controllers\Process\BaseProcess->edit_profile()
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('editprofile')
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-21 11:48:08 --> Unknown column 'confirm_password' in 'where clause'
+CRITICAL - 2023-03-21 11:48:08 --> Unknown column 'confirm_password' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `password`
+FROM `user`
+WHERE `id` = \'3\'
+AND `username` = \'user_220\'
+AND `email` = \'user_220@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `password`
+FROM `user`
+WHERE `id` = \'3\'
+AND `username` = \'user_220\'
+AND `email` = \'user_220@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `password`
+FROM `user`
+WHERE `id` = \'3\'
+AND `username` = \'user_220\'
+AND `email` = \'user_220@email.ir\'
+AND `password` = \'2222\'
+AND `confirm_password` = \'2222\'
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `password`
+FROM `user`
+WHERE `id` = :id:
+AND `username` = :username:
+AND `email` = :email:
+AND `password` = :password:
+AND `confirm_password` = :confirm_password:
+GROUP BY `user`.`id`
+ORDER BY `user`.`id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(252): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(138): App\Libraries\KingAuth\Handlers\EditProfile->hashing_pass()
+ 9 APPPATH\Libraries\KingAuth\Handlers\EditProfile.php(45): App\Libraries\KingAuth\Handlers\EditProfile->update_info()
+10 APPPATH\Libraries\KingAuth\KingAuth.php(385): App\Libraries\KingAuth\Handlers\EditProfile->edit([...], 'current_password', 'password', 'confirm_password')
+11 APPPATH\Controllers\Process\BaseProcess.php(245): App\Libraries\KingAuth\KingAuth->edit_profile([...], 'current_password', 'password', 'confirm_password')
+12 APPPATH\Controllers\Process\BaseProcess.php(62): App\Controllers\Process\BaseProcess->edit_profile()
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\BaseProcess->index('editprofile')
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\EditProfile))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

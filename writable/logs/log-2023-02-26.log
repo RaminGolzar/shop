@@ -1,0 +1,173 @@
+CRITICAL - 2023-02-26 07:32:56 --> ManageProducts is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 SYSTEMPATH\Database\Config.php(131): CodeIgniter\Database\Config::connect('ManageProducts')
+ 2 APPPATH\Controllers\Panel\Products.php(189): CodeIgniter\Database\Config::seeder('ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:34:10 --> ManageProducts is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 SYSTEMPATH\Database\Config.php(131): CodeIgniter\Database\Config::connect('ManageProducts')
+ 2 APPPATH\Controllers\Panel\Products.php(189): CodeIgniter\Database\Config::seeder('ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:34:31 --> ManageProducts is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 SYSTEMPATH\Database\Config.php(131): CodeIgniter\Database\Config::connect('ManageProducts')
+ 2 APPPATH\Controllers\Panel\Products.php(189): CodeIgniter\Database\Config::seeder('ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:34:48 --> ManageProducts is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 SYSTEMPATH\Database\Config.php(131): CodeIgniter\Database\Config::connect('ManageProducts')
+ 2 APPPATH\Controllers\Panel\Products.php(189): CodeIgniter\Database\Config::seeder('ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:38:32 --> Default value for property of type object may not be null. Use the nullable type ?object to allow null default value
+in APPPATH\Database\Seeds\ManageProducts.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-26 07:40:37 --> Call to a member function table() on null
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 08:35:28 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Database\Seeds\ManageProducts.php(25): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 5 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 6 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 08:37:51 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Database\Seeds\ManageProducts.php(25): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 5 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 6 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 08:41:38 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Database\Seeds\ManageProducts.php(25): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 5 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 6 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 08:43:19 --> Argument 1 passed to App\Libraries\TEFakeContent\TEFakeContent::field() must be of the type string, array given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Database\Seeds\ManageProducts.php on line 20
+in APPPATH\Libraries\TEFakeContent\TEFakeContent.php on line 64.
+ 1 APPPATH\Database\Seeds\ManageProducts.php(20): App\Libraries\TEFakeContent\TEFakeContent->field([...])
+ 2 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 3 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 4 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 08:47:49 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Database\Seeds\ManageProducts.php(38): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 5 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 6 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:27:43 --> Argument 1 passed to App\Libraries\TEFakeContent\Interpreter\Interpreter::making() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 32
+in APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php on line 60.
+ 1 APPPATH\Libraries\TEFakeContent\Interpreter\Interpreter.php(32): App\Libraries\TEFakeContent\Interpreter\Interpreter->making(null, false)
+ 2 APPPATH\Libraries\TEFakeContent\TEFakeContent.php(43): App\Libraries\TEFakeContent\Interpreter\Interpreter->make_fields([...], 10)
+ 3 APPPATH\Database\Seeds\ManageProducts.php(20): App\Libraries\TEFakeContent\TEFakeContent->fields([...])
+ 4 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 5 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 6 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:29:12 --> Call to a member function table() on null
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:29:53 --> Call to a member function table() on null
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:32:04 --> Call to a member function table() on null
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:33:17 --> Call to undefined method App\Database\Seeds\ManageProducts::table()
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:38:15 --> Call to a member function table() on null
+in APPPATH\Database\Seeds\ManageProducts.php on line 22.
+ 1 SYSTEMPATH\Database\Seeder.php(145): App\Database\Seeds\ManageProducts->run()
+ 2 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 3 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 09:39:47 --> Undefined variable: config
+in APPPATH\Database\Seeds\ManageProducts.php on line 14.
+ 1 APPPATH\Database\Seeds\ManageProducts.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: config', 'APPPATH\\Database\\Seeds\\ManageProducts.php', 14, [])
+ 2 SYSTEMPATH\Database\Seeder.php(144): App\Database\Seeds\ManageProducts->__construct(Object(Config\Database))
+ 3 APPPATH\Controllers\Panel\Products.php(191): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\ManageProducts')
+ 4 APPPATH\Controllers\Panel\Products.php(12): App\Controllers\Panel\Products->test_seed()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

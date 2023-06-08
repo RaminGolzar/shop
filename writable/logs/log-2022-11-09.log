@@ -1,0 +1,124 @@
+CRITICAL - 2022-11-09 06:43:47 --> Undefined variable: a
+in APPPATH\Controllers\BaseController.php on line 77.
+ 1 APPPATH\Controllers\BaseController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: a', 'APPPATH\\Controllers\\BaseController.php', 77, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:45:51 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 82.
+ 1 APPPATH\Controllers\BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 82, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:46:23 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 82.
+ 1 APPPATH\Controllers\BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 82, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:47:40 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 82.
+ 1 APPPATH\Controllers\BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 82, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:49:00 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 82.
+ 1 APPPATH\Controllers\BaseController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 82, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:51:35 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 83.
+ 1 APPPATH\Controllers\BaseController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 83, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:52:30 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 85, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:53:37 --> Cannot use [] for reading
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:55:40 --> Undefined variable: header
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: header', 'APPPATH\\Controllers\\BaseController.php', 85, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:56:17 --> Undefined variable: header
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: header', 'APPPATH\\Controllers\\BaseController.php', 85, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 06:56:20 --> Undefined variable: header
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: header', 'APPPATH\\Controllers\\BaseController.php', 85, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 07:22:55 --> Undefined property: App\Controllers\Home::$foterAttr
+in APPPATH\Controllers\BaseController.php on line 94.
+ 1 APPPATH\Controllers\BaseController.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$foterAttr', 'APPPATH\\Controllers\\BaseController.php', 94, [...])
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 07:43:06 --> Array to string conversion
+in APPPATH\Libraries\LoadView\Attachments\BaseTag.php on line 51.
+ 1 APPPATH\Libraries\LoadView\Attachments\BaseTag.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\LoadView\\Attachments\\BaseTag.php', 51, [...])
+ 2 SYSTEMPATH\View\Cell.php(111): App\Libraries\LoadView\LoadView->footer([...])
+ 3 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Libraries\\LoadView\\LoadView::footer', [...], 0, 'AppLibrariesLoadViewLoadViewfooter4e09072474c016f17915e5928837194f')
+ 4 APPPATH\Libraries\LoadView\Attachments\BaseTag.php(64): view_cell('App\\Libraries\\LoadView\\LoadView::footer', [...])
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(111): App\Libraries\LoadView\LoadView->tag('footer')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(93): App\Libraries\LoadView\LoadView->footer_view()
+ 7 APPPATH\Libraries\LoadView\Attachments\View.php(67): App\Libraries\LoadView\LoadView->body_view('VHome')
+ 8 APPPATH\Libraries\LoadView\Attachments\View.php(40): App\Libraries\LoadView\LoadView->render('VHome')
+ 9 APPPATH\Libraries\LoadView\Attachments\View.php(10): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+10 APPPATH\Controllers\BaseController.php(97): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+11 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 07:49:13 --> Array to string conversion
+in APPPATH\Libraries\LoadView\Attachments\BaseTag.php on line 56.
+ 1 APPPATH\Libraries\LoadView\Attachments\BaseTag.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\LoadView\\Attachments\\BaseTag.php', 56, [...])
+ 2 APPPATH\Libraries\LoadView\Attachments\View.php(63): App\Libraries\LoadView\LoadView->tag('html')
+ 3 APPPATH\Libraries\LoadView\Attachments\View.php(40): App\Libraries\LoadView\LoadView->render('VHome')
+ 4 APPPATH\Libraries\LoadView\Attachments\View.php(10): App\Libraries\LoadView\LoadView->render_view('VHome', 'Home')
+ 5 APPPATH\Controllers\BaseController.php(97): App\Libraries\LoadView\LoadView->view('VHome', 'Home')
+ 6 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome', 'Home')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

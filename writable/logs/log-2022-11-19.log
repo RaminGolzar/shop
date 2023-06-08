@@ -1,0 +1,20 @@
+CRITICAL - 2022-11-19 11:15:52 --> print_r() expects at least 1 parameter, 0 given
+in APPPATH\Controllers\Panel\ManageBrands.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expects at least 1 parameter, 0 given', 'APPPATH\\Controllers\\Panel\\ManageBrands.php', 111, [...])
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(111): print_r()
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(94): App\Controllers\Panel\ManageBrands->get_brands()
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-19 11:17:17 --> Undefined index: deleted_at
+in APPPATH\Controllers\Panel\ManageBrands.php on line 126.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deleted_at', 'APPPATH\\Controllers\\Panel\\ManageBrands.php', 126, [...])
+ 2 APPPATH\Controllers\Panel\ManageBrands.php(109): App\Controllers\Panel\ManageBrands->active_field_content([...])
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(94): App\Controllers\Panel\ManageBrands->get_brands()
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(15): App\Controllers\Panel\ManageBrands->show_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

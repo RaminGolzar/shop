@@ -1,0 +1,262 @@
+CRITICAL - 2022-12-06 06:47:46 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:47:54 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:50:38 --> Return value of App\Controllers\Process\Products::process() must be an object, null returned
+in APPPATH\Controllers\Process\Products.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 06:53:06 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:00:40 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:03:05 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:04:00 --> Return value of App\Controllers\Process\Products::process() must be an object, none returned
+in APPPATH\Controllers\Process\Products.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:07:06 --> Return value of App\Controllers\Process\Products::process() must be of the type string, null returned
+in APPPATH\Controllers\Process\Products.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:08:00 --> Return value of App\Controllers\Process\Products::process() must be of the type string, null returned
+in APPPATH\Controllers\Process\Products.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:08:07 --> Return value of App\Controllers\Process\Products::process() must be of the type string, null returned
+in APPPATH\Controllers\Process\Products.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:21:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('11')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('11')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('11')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:32:37 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:34:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('9')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('9')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('9')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:34:20 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:35:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('8')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('8')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('8')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 07:37:35 --> Return value of App\Controllers\Process\Products::process() must be an object, null returned
+in APPPATH\Controllers\Process\Products.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:39:18 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:43:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('15')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('15')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('15')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:43:51 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:45:41 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:45:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('4')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('4')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('4')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:45:58 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:46:52 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:48:08 --> Return value of App\Controllers\Process\Products::process() must be an object or null, none returned
+in APPPATH\Controllers\Process\Products.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('edit')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:54:59 --> Undefined variable: result
+in APPPATH\Controllers\Process\Products.php on line 129.
+ 1 APPPATH\Controllers\Process\Products.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: result', 'APPPATH\\Controllers\\Process\\Products.php', 129, [...])
+ 2 APPPATH\Controllers\Process\Products.php(116): App\Controllers\Process\Products->delete_product('17')
+ 3 APPPATH\Controllers\Process\Products.php(19): App\Controllers\Process\Products->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Products->process('delete')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:55:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('17')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('17')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('17')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 08:59:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('16')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('16')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('16')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:03:29 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Delete product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Delete product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Delete product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Delete product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:04:45 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('Delete product is successfully')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', 'Delete product is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', 'Delete product is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('Delete product is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:05:35 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, null used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 48.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(32): App\Libraries\ShowMessage\ShowMessage->convert_message('[object Object]')
+ 2 APPPATH\Controllers\BaseController.php(231): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Products.php(10): App\Controllers\BaseController->msg('ROOTPATH\\public', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Products->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:26:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('23')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('23')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('23')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:34:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('21')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('21')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('21')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:44:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('29')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('29')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('29')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 09:50:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Panel\EditProduct.php on line 66.
+ 1 APPPATH\Controllers\Panel\EditProduct.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Panel\\EditProduct.php', 66, [...])
+ 2 APPPATH\Controllers\Panel\EditProduct.php(53): App\Controllers\Panel\EditProduct->add_product_form('30')
+ 3 APPPATH\Controllers\Panel\EditProduct.php(16): App\Controllers\Panel\EditProduct->edit_product('30')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\EditProduct->index('30')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\EditProduct))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 10:52:22 --> Undefined variable: fs
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fs', 'APPPATH\\Controllers\\Home.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-06 10:53:20 --> Class 'App\Libraries\FakeData\Handlers' not found
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

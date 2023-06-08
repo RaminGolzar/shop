@@ -1,0 +1,236 @@
+CRITICAL - 2022-11-22 04:51:22 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('Edit brand is successfully')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', 'Edit brand is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', 'Edit brand is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('Edit brand is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 04:56:13 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('Edit brand is successfully')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', 'Edit brand is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', 'Edit brand is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('Edit brand is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 04:57:18 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('Edit brand is successfully')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', 'Edit brand is successfully', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', 'Edit brand is successfully')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('Edit brand is successfully')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:01:28 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:06:14 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:07:16 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:26:02 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:27:14 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:27:16 --> Typed property App\Libraries\ShowErrors\ShowErrors::$errors must be array, null used
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 48.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(32): App\Libraries\ShowErrors\ShowErrors->convert_error('[object Object]')
+ 2 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('Error(s)::b,3', '[object Object]', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\ManageBrands.php(22): App\Controllers\Panel\BaseController->errors('Error(s)::b,3', '[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('[object Object]')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 05:48:55 --> Return value of App\Libraries\ShowErrors\ShowErrors::set_message_color() must be of the type array, none returned
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 99.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(71): App\Libraries\ShowErrors\ShowErrors->set_message_color('msg')
+ 2 APPPATH\Libraries\ShowErrors\ShowErrors.php(33): App\Libraries\ShowErrors\ShowErrors->gen_error_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->__invoke('ROOTPATH\\public', '{"msg":"Edit brand is successfully"}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"msg":"Edit brand is successfully"}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"msg":"Edit brand is successfully"}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 07:33:59 --> Only variables should be passed by reference
+in APPPATH\Controllers\Process\ManageBrands.php on line 92.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 92, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(72): App\Controllers\Process\ManageBrands->prepare_url(Object(App\Models\MManageBrands))
+ 3 APPPATH\Controllers\Process\ManageBrands.php(35): App\Controllers\Process\ManageBrands->insert([...])
+ 4 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 07:35:18 --> key() expects parameter 1 to be array, string given
+in APPPATH\Controllers\Process\ManageBrands.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects parameter 1 to be array, string given', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 93, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(93): key('The name field must be at least 3 characters in length.')
+ 3 APPPATH\Controllers\Process\ManageBrands.php(72): App\Controllers\Process\ManageBrands->prepare_url(Object(App\Models\MManageBrands))
+ 4 APPPATH\Controllers\Process\ManageBrands.php(35): App\Controllers\Process\ManageBrands->insert([...])
+ 5 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 07:58:41 --> Too few arguments to function App\Controllers\Process\ManageBrands::prepare_result(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Controllers\Process\ManageBrands.php on line 74 and exactly 2 expected
+in APPPATH\Controllers\Process\ManageBrands.php on line 80.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->prepare_result('success')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(35): App\Controllers\Process\ManageBrands->insert([...])
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 07:59:20 --> Return value of App\Controllers\Process\ManageBrands::prepare_result() must be of the type string, object returned
+in APPPATH\Controllers\Process\ManageBrands.php on line 83.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->prepare_result('success')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(35): App\Controllers\Process\ManageBrands->insert([...])
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 08:00:10 --> Call to a member function errors() on null
+in APPPATH\Controllers\Process\ManageBrands.php on line 86.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(74): App\Controllers\Process\ManageBrands->prepare_result('success')
+ 2 APPPATH\Controllers\Process\ManageBrands.php(35): App\Controllers\Process\ManageBrands->insert([...])
+ 3 APPPATH\Controllers\Process\ManageBrands.php(10): App\Controllers\Process\ManageBrands->save_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('save')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 08:42:17 --> Return value of App\Libraries\ShowErrors\ShowErrors::set_message_color() must be of the type array, string returned
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 117.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(75): App\Libraries\ShowErrors\ShowErrors->set_message_color('name')
+ 2 APPPATH\Libraries\ShowErrors\ShowErrors.php(33): App\Libraries\ShowErrors\ShowErrors->gen_error_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->show('ROOTPATH\\public', '{"name":"The name field must be at least 3 characters in length."}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"name":"The name field must be at least 3 characters in length."}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"name":"The name field must be at least 3 characters in length."}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 08:42:33 --> Return value of App\Libraries\ShowErrors\ShowErrors::set_message_color() must be of the type array, string returned
+in APPPATH\Libraries\ShowErrors\ShowErrors.php on line 117.
+ 1 APPPATH\Libraries\ShowErrors\ShowErrors.php(75): App\Libraries\ShowErrors\ShowErrors->set_message_color('name')
+ 2 APPPATH\Libraries\ShowErrors\ShowErrors.php(33): App\Libraries\ShowErrors\ShowErrors->gen_error_box('ROOTPATH\\public', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\BaseController.php(180): App\Libraries\ShowErrors\ShowErrors->show('ROOTPATH\\public', '{"name":"The name field must be at least 3 characters in length."}', Object(App\Libraries\Elements\Elements))
+ 4 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"name":"The name field must be at least 3 characters in length."}')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"name":"The name field must be at least 3 characters in length."}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:06:11 --> Class 'App\Libraries\ShowErrors\ShowErrors' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:06:55 --> Class 'App\Libraries\ShowErrors\ShowErrors' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:07:33 --> Class 'App\Controllers\Panel\ShowErrors' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:07:49 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:07:51 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:07:51 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:08:33 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', '{"error":"*****Edit brand is successfully"}')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index('{"error":"*****Edit brand is successfully"}')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:09:31 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:09:38 --> Class 'App\Libraries\ShowErrors\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:10:02 --> Class 'App\Libraries\ShowMessage\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 09:10:03 --> Class 'App\Libraries\ShowMessage\ShowMessage' not found
+in APPPATH\Controllers\Panel\BaseController.php on line 174.
+ 1 APPPATH\Controllers\Panel\ManageBrands.php(14): App\Controllers\Panel\BaseController->errors('ROOTPATH\\public', 'ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ManageBrands->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ManageBrands))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

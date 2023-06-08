@@ -1,0 +1,17 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-bottom: 400px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}

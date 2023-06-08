@@ -1,0 +1,148 @@
+CRITICAL - 2023-04-09 06:59:56 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Process/Cart::index/$1
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Process/Cart::index/$1')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('Cart/delete')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('Cart/delete')
+ 4 SYSTEMPATH\CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:00:25 --> Return value of App\Controllers\Process\Cart::gpid() must be of the type string, null returned
+in APPPATH\Controllers\Process\Cart.php on line 36.
+ 1 APPPATH\Controllers\Process\Cart.php(24): App\Controllers\Process\Cart->gpid()
+ 2 APPPATH\Controllers\Process\Cart.php(18): App\Controllers\Process\Cart->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:00:51 --> Return value of App\Controllers\Process\Cart::gpid() must be of the type string, null returned
+in APPPATH\Controllers\Process\Cart.php on line 37.
+ 1 APPPATH\Controllers\Process\Cart.php(24): App\Controllers\Process\Cart->gpid()
+ 2 APPPATH\Controllers\Process\Cart.php(18): App\Controllers\Process\Cart->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:00:52 --> Return value of App\Controllers\Process\Cart::gpid() must be of the type string, null returned
+in APPPATH\Controllers\Process\Cart.php on line 37.
+ 1 APPPATH\Controllers\Process\Cart.php(24): App\Controllers\Process\Cart->gpid()
+ 2 APPPATH\Controllers\Process\Cart.php(18): App\Controllers\Process\Cart->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:00:59 --> Return value of App\Controllers\Process\Cart::gpid() must be of the type string, null returned
+in APPPATH\Controllers\Process\Cart.php on line 37.
+ 1 APPPATH\Controllers\Process\Cart.php(24): App\Controllers\Process\Cart->gpid()
+ 2 APPPATH\Controllers\Process\Cart.php(18): App\Controllers\Process\Cart->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:21:24 --> Undefined property: App\Controllers\Panel\Cart::$ssa
+in APPPATH\Controllers\Panel\Cart.php on line 73.
+ 1 APPPATH\Controllers\Panel\Cart.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Panel\\Cart::$ssa', 'APPPATH\\Controllers\\Panel\\Cart.php', 73, [...])
+ 2 APPPATH\Controllers\Panel\Cart.php(56): App\Controllers\Panel\Cart->oep('2')
+ 3 APPPATH\Controllers\Panel\Cart.php(43): App\Controllers\Panel\Cart->prepare_product_operation([...])
+ 4 APPPATH\Controllers\Panel\Cart.php(24): App\Controllers\Panel\Cart->gen_cart_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:21:30 --> Undefined property: App\Controllers\Panel\Cart::$ssa
+in APPPATH\Controllers\Panel\Cart.php on line 73.
+ 1 APPPATH\Controllers\Panel\Cart.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Panel\\Cart::$ssa', 'APPPATH\\Controllers\\Panel\\Cart.php', 73, [...])
+ 2 APPPATH\Controllers\Panel\Cart.php(56): App\Controllers\Panel\Cart->oep('2')
+ 3 APPPATH\Controllers\Panel\Cart.php(43): App\Controllers\Panel\Cart->prepare_product_operation([...])
+ 4 APPPATH\Controllers\Panel\Cart.php(24): App\Controllers\Panel\Cart->gen_cart_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:22:17 --> Undefined property: App\Controllers\Panel\Cart::$ssa
+in APPPATH\Controllers\Panel\Cart.php on line 73.
+ 1 APPPATH\Controllers\Panel\Cart.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Panel\\Cart::$ssa', 'APPPATH\\Controllers\\Panel\\Cart.php', 73, [...])
+ 2 APPPATH\Controllers\Panel\Cart.php(56): App\Controllers\Panel\Cart->oep('2')
+ 3 APPPATH\Controllers\Panel\Cart.php(43): App\Controllers\Panel\Cart->prepare_product_operation([...])
+ 4 APPPATH\Controllers\Panel\Cart.php(24): App\Controllers\Panel\Cart->gen_cart_table()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 07:31:49 --> Return value of App\Controllers\Process\Cart::delete() must be an object, none returned
+in APPPATH\Controllers\Process\Cart.php on line 26.
+ 1 APPPATH\Controllers\Process\Cart.php(18): App\Controllers\Process\Cart->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 08:20:58 --> Return value of App\Controllers\Process\Cart::redirect() must be of the type string, object returned
+in APPPATH\Controllers\Process\Cart.php on line 66.
+ 1 APPPATH\Controllers\Process\Cart.php(48): App\Controllers\Process\Cart->redirect('delete', true)
+ 2 APPPATH\Controllers\Process\Cart.php(43): App\Controllers\Process\Cart->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 08:21:29 --> Return value of App\Controllers\Process\Cart::delete() must be an object, none returned
+in APPPATH\Controllers\Process\Cart.php on line 52.
+ 1 APPPATH\Controllers\Process\Cart.php(43): App\Controllers\Process\Cart->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 08:22:00 --> Return value of App\Controllers\Process\Cart::delete() must be an object, none returned
+in APPPATH\Controllers\Process\Cart.php on line 52.
+ 1 APPPATH\Controllers\Process\Cart.php(43): App\Controllers\Process\Cart->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->index('delete')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 10:24:06 --> Typed property App\Controllers\Process\Cart::$mCart must not be accessed before initialization
+in APPPATH\Controllers\Process\Cart.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\Cart->empty_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 10:25:27 --> Argument 1 passed to App\Libraries\Elements\Elements::poem_cell() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\Elements\Elements.php on line 1207
+in APPPATH\Libraries\Elements\Elements.php on line 1226.
+ 1 APPPATH\Libraries\Elements\Elements.php(1207): App\Libraries\Elements\Elements->poem_cell(null, 'right')
+ 2 APPPATH\Libraries\Elements\Elements.php(1164): App\Libraries\Elements\Elements->poem_two_array([...], [...])
+ 3 APPPATH\Controllers\Panel\Cart.php(119): App\Libraries\Elements\Elements->poem([...], [...])
+ 4 APPPATH\Controllers\Panel\Cart.php(26): App\Controllers\Panel\Cart->gen_calculation()
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index('{"alert":"Your shopping cart has been successfully emptied"}')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 10:31:06 --> Undefined variable: cartTable
+in APPPATH\Views\Panel\VCart.php on line 6.
+ 1 APPPATH\Views\Panel\VCart.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cartTable', 'APPPATH\\Views\\Panel\\VCart.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Panel\\VCart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Panel/VCart', [], true)
+ 5 APPPATH\Libraries\LoadView\Attachments\View.php(80): view('Panel/VCart')
+ 6 APPPATH\Libraries\LoadView\Attachments\View.php(32): App\Libraries\LoadView\LoadView->body_view('Panel/VCart')
+ 7 APPPATH\Libraries\LoadView\LoadView.php(26): App\Libraries\LoadView\LoadView->render_view('Panel/VCart', 'Shopping Cart')
+ 8 APPPATH\Controllers\BaseController.php(105): App\Libraries\LoadView\LoadView->show('Panel/VCart', 'Shopping Cart')
+ 9 APPPATH\Controllers\Panel\Cart.php(26): App\Controllers\BaseController->view('Panel/VCart', 'Shopping Cart')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index('{"alert":"Your shopping cart has been successfully emptied"}')
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 10:41:37 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, int used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 51.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(35): App\Libraries\ShowMessage\ShowMessage->convert_message('1')
+ 2 APPPATH\Controllers\BaseController.php(271): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '1', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Cart.php(22): App\Controllers\BaseController->msg('ROOTPATH\\public', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-09 10:41:41 --> Typed property App\Libraries\ShowMessage\ShowMessage::$errors must be array, int used
+in APPPATH\Libraries\ShowMessage\ShowMessage.php on line 51.
+ 1 APPPATH\Libraries\ShowMessage\ShowMessage.php(35): App\Libraries\ShowMessage\ShowMessage->convert_message('1')
+ 2 APPPATH\Controllers\BaseController.php(271): App\Libraries\ShowMessage\ShowMessage->show('ROOTPATH\\public', '1', Object(App\Libraries\Elements\Elements))
+ 3 APPPATH\Controllers\Panel\Cart.php(22): App\Controllers\BaseController->msg('ROOTPATH\\public', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\Cart->index('1')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

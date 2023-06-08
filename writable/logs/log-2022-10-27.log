@@ -1,0 +1,53 @@
+CRITICAL - 2022-10-27 08:28:51 --> Invalid file: Templates/Head.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/Head.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 3 APPPATH\Controllers\BaseController.php(72): view('Templates/Head')
+ 4 APPPATH\Controllers\BaseController.php(59): App\Controllers\BaseController->load_views('VHome')
+ 5 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 08:28:56 --> Invalid file: Templates/Head.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Templates/Head.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Templates/Head', [], true)
+ 3 APPPATH\Controllers\BaseController.php(72): view('Templates/Head')
+ 4 APPPATH\Controllers\BaseController.php(59): App\Controllers\BaseController->load_views('VHome')
+ 5 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 08:52:27 --> Class 'App\Controllers\PageNotFoundException' not found
+in APPPATH\Controllers\BaseController.php on line 74.
+ 1 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHomes')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 08:54:28 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 101.
+ 1 APPPATH\Controllers\BaseController.php(76): App\Controllers\BaseController->load_views('VHome')
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 09:06:38 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 101.
+ 1 APPPATH\Controllers\BaseController.php(76): App\Controllers\BaseController->load_views('VHome')
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 09:06:40 --> Typed property App\Controllers\BaseController::$data must not be accessed before initialization
+in APPPATH\Controllers\BaseController.php on line 101.
+ 1 APPPATH\Controllers\BaseController.php(76): App\Controllers\BaseController->load_views('VHome')
+ 2 APPPATH\Controllers\Home.php(9): App\Controllers\BaseController->view('VHome')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

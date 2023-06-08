@@ -1,0 +1,18 @@
+ERROR - 2023-04-06 08:51:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-06 08:51:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_groups`
+WHERE `product_groups`.`id` = :product_groups.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+ 5 APPPATH\Controllers\Panel\ProductsList.php(32): CodeIgniter\BaseModel->find('1')
+ 6 APPPATH\Controllers\Panel\ProductsList.php(12): App\Controllers\Panel\ProductsList->check_exist_id('1')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Panel\ProductsList->index('1')
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\ProductsList))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

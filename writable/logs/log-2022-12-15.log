@@ -1,0 +1,144 @@
+CRITICAL - 2022-12-15 06:32:46 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word::make() must be of the type string, array returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 8.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(4, null)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(4)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:33:33 --> Array to string conversion
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 205.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\GenContent.php', 205, [...])
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(4)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:33:59 --> Array to string conversion
+in APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php on line 205.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\GenContent.php', 205, [...])
+ 2 APPPATH\Controllers\Home.php(21): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(4)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 07:01:12 --> Call to undefined method App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word::lorem_split()
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 8.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(206): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, null)
+ 2 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 07:01:42 --> Only variables should be passed by reference
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 12.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH\\Libraries\\TEFakeContent\\GenContent\\LoremIpsum\\Word.php', 12, [])
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(8): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->text_explode()
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(206): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, null)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 07:02:15 --> Key element cannot be a reference
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-15 07:51:11 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word::text_explode() must be of the type array, null returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 15.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->text_explode()
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(206): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, null)
+ 3 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2)
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 07:52:28 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word::text_explode() must be of the type array, null returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 15.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->text_explode()
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, null)
+ 3 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2)
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 08:01:39 --> Minimum value must be less than or equal to the maximum value
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 41.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(41): random_int(0, -2)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(34): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->get_offset(-2)
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->text_index(-2, null)
+ 4 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(-2, null)
+ 5 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(-2)
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:02:52 --> Too few arguments to function App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_start(), 1 passed in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 49 and exactly 2 expected
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 32.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(49): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_start('eu, culpa ')
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, 5)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2, 5)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:04:36 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_start() must be of the type string, none returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 39.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(49): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_start('word', 'arcu. Nullam Donec ')
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, 5)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2, 5)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:05:15 --> Return value of App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_start() must be of the type string or null, none returned
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 39.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(49): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_start('word', 'scelerisque ligula massa. vitae et ')
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(2, 5)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(2, 5)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:05:45 --> A void function must not return a value (did you mean "return;" instead of "return null;"?)
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-15 09:10:55 --> Argument 1 passed to App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_end() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 51
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 62.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(51): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_end(null)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(20, null)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(20)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:11:42 --> Argument 1 passed to App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_end() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 51
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 62.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(51): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_end(null)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(20, null)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(20)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:23:47 --> Argument 1 passed to App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum::set_end() must be of the type string, null given, called in E:\SoftWare\xampp 7\htdocs\my_projects\Resume\Shop\app\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php on line 51
+in APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum.php on line 62.
+ 1 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(51): App\Libraries\TEFakeContent\GenContent\LoremIpsum\BaseLoremIpsum->set_end(null)
+ 2 APPPATH\Libraries\TEFakeContent\GenContent\LoremIpsum\Word.php(9): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->result([...])
+ 3 APPPATH\Libraries\TEFakeContent\GenContent\GenContent.php(205): App\Libraries\TEFakeContent\GenContent\LoremIpsum\Word->make(20, null)
+ 4 APPPATH\Controllers\Home.php(20): App\Libraries\TEFakeContent\GenContent\GenContent->lorem_word(20)
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 09:46:44 --> Undefined variable: string
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: string', 'APPPATH\\Controllers\\Home.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

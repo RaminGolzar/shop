@@ -1,0 +1,25 @@
+CRITICAL - 2022-11-16 08:27:19 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 101.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 101, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(14): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 08:27:31 --> Array to string conversion
+in APPPATH\Controllers\Process\ManageBrands.php on line 101.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 101, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(14): App\Controllers\Process\ManageBrands->edit_brand()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 11:41:39 --> Undefined index: brand-active
+in APPPATH\Controllers\Process\ManageBrands.php on line 130.
+ 1 APPPATH\Controllers\Process\ManageBrands.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: brand-active', 'APPPATH\\Controllers\\Process\\ManageBrands.php', 130, [...])
+ 2 APPPATH\Controllers\Process\ManageBrands.php(100): App\Controllers\Process\ManageBrands->data_for_edit()
+ 3 APPPATH\Controllers\Process\ManageBrands.php(14): App\Controllers\Process\ManageBrands->edit_brand()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Process\ManageBrands->process('edit')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process\ManageBrands))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

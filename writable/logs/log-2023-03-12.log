@@ -1,0 +1,9 @@
+CRITICAL - 2023-03-12 09:45:22 --> Typed property App\Controllers\Edit\BaseEdit::$processClass must not be accessed before initialization
+in APPPATH\Controllers\Edit\BaseEdit.php on line 156.
+ 1 APPPATH\Controllers\Edit\ShippingMethod.php(33): App\Controllers\Edit\BaseEdit->get_submits()
+ 2 APPPATH\Controllers\Edit\BaseEdit.php(96): App\Controllers\Edit\ShippingMethod->edit_form()
+ 3 APPPATH\Controllers\Edit\BaseEdit.php(69): App\Controllers\Edit\BaseEdit->gen_edit_form()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Edit\BaseEdit->index('53')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit\ShippingMethod))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
